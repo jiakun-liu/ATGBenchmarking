@@ -1,0 +1,14 @@
+# docker run -it --rm --device /dev/kvm androidsdk/android-28:latest bash
+export DEBIAN_FRONTEND=noninteractive
+apt-get update
+apt-get -yq install python3-pip
+pip3 install protobuf==3.6.1 pillow==8.3.2
+pip3 install tensorflow==1.12 matplotlib scipy pyflann-py3 --upgrade-strategy only-if-needed
+wget https://github.com/the-themis-benchmarks/droidbot/archive/refs/heads/themis-branch.zip
+unzip themis-branch.zip
+cd  droidbot-themis-branch
+pip3 install -e . --upgrade-strategy only-if-needed
+
+docker run -it --rm -v /mnt/hdd1/jkliu/Projects/ATGEmpirical/:/ATGEmpirical -w /ATGEmpirical/tools/humanoid --device=/dev/kvm atg/humanoid bash
+
+docker run --rm -v /mnt/hdd1/jkliu/Projects/ATGEmpirical/:/ATGEmpirical -w /ATGEmpirical/tools/humanoid --device=/dev/kvm atg/humanoid timeout 360 bash ./run_humanoid.sh /ATGEmpirical/apks/fdroid/org.wikipedia_50463.apk /ATGEmpirical/temp_test/humanoid/ 360 2>&1 | tee /ATGEmpirical/temp_test/humanoid/log.log

@@ -1,0 +1,25 @@
+docker run -it --rm androidsdk/android-28:latest bash
+
+apt-get -y update
+apt-get -y install build-essential zlib1g-dev libssl-dev libreadline6-dev libyaml-dev
+cd /tmp
+wget http://ftp.ruby-lang.org/pub/ruby/2.1/ruby-2.1.5.tar.gz
+tar -xvzf ruby-2.1.5.tar.gz
+cd ruby-2.1.5/
+./configure --prefix=/usr/local
+make
+make install
+
+gem install nokogiri -v 1.9.0
+
+apt-get update
+
+
+docker run -it --rm -v /mnt/hdd1/jkliu/Projects/ATGEmpirical/:/ATGEmpirical -w /ATGEmpirical/tools/stoat --device=/dev/kvm androidsdk/android-28:latest bash
+
+docker run -it --rm -v /mnt/hdd1/jkliu/Projects/ATGEmpirical/:/ATGEmpirical -w /ATGEmpirical/tools/stoat --device=/dev/kvm atg/scenedroid bash
+
+
+python3 main_ATGEmpirical.py --apk_file /ATGEmpirical/apks/fdroid/org.wikipedia_50463.apk --result /ATGEmpirical/temp_test/stoat/ --timeout 360 --emulator_name emulator-5554
+
+docker run --rm -v /mnt/hdd1/jkliu/Projects/ATGEmpirical/:/ATGEmpirical -w /ATGEmpirical/tools/stoat --device=/dev/kvm atg/stoat timeout 3600 bash ./run_stoat.sh /ATGEmpirical/apks/fdroid/org.wikipedia_50463.apk /ATGEmpirical/temp_test/stoat/ 3600 2>&1 | tee /ATGEmpirical/temp_test/stoat/log.log

@@ -1,0 +1,1 @@
+docker run --rm -v /mnt/hdd1/jkliu/Projects/ATGEmpirical/:/ATGEmpirical -w /ATGEmpirical/tools/monkey --device=/dev/kvm atg/ape timeout 360 bash ./run_monkey.sh /ATGEmpirical/apks/fdroid/org.wikipedia_50463.apk /ATGEmpirical/temp_test/monkey/ 360 2>&1 | tee /ATGEmpirical/temp_test/monkey/log.log

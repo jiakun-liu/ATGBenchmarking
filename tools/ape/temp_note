@@ -1,0 +1,27 @@
+docker run --rm -v /mnt/hdd1/jkliu/Projects/ATGEmpirical/:/ATGEmpirical -w /ATGEmpirical/tools/ape --device=/dev/kvm atg/common timeout 360 bash ./run_ape.sh /ATGEmpirical/apks/fdroid/org.wikipedia_50463.apk /ATGEmpirical/temp_test/ape/ 360 2>&1 | tee /ATGEmpirical/temp_test/ape/log.log
+
+
+docker run -it --rm atg/ape sdkmanager --list
+
+docker run -it --rm androidsdk/android-28:latest bash
+
+docker run -it --rm -v /mnt/hdd1/jkliu/Projects/ATGEmpirical/:/mnt/hdd1/jkliu/Projects/ATGEmpirical -w /ATGEmpirical/tools/ape --device=/dev/kvm atg/common bash
+
+docker run --network none -it --rm -v /mnt/hdd1/jkliu/Projects/ATGEmpirical/:/mnt/hdd1/jkliu/Projects/ATGEmpirical -w /mnt/hdd1/jkliu/Projects/ATGEmpirical --device=/dev/kvm atg/common bash
+
+docker run -it --rm -v /mnt/hdd1/jkliu/Projects/ATGEmpirical/:/mnt/hdd1/jkliu/Projects/ATGEmpirical -w /mnt/hdd1/jkliu/Projects/ATGEmpirical --device=/dev/kvm atg/common bash
+
+
+docker run -it --rm -v /mnt/hdd3/jkliu/Projects/TestingModel/:/mnt/hdd3/jkliu/Projects/TestingModel -w /mnt/hdd3/jkliu/Projects/TestingModel --device=/dev/kvm atg/common bash
+
+docker run -it --rm -v /media/DATA/jkliu-data/Projects/ATGEmpirical/:/media/DATA/jkliu-data/Projects/ATGEmpirical -w /media/DATA/jkliu-data/Projects/ATGEmpirical --publish 8554:8554/tcp --publish 5555:5555/tcp --device=/dev/kvm atg/common bash
+
+docker run -it --rm -v /media/DATA/jkliu-data/Projects/ATGEmpirical/:/media/DATA/jkliu-data/Projects/ATGEmpirical -w /media/DATA/jkliu-data/Projects/ATGEmpirical --device=/dev/kvm atg/common bash
+
+docker run -it --rm -v /Users/jiakun/Projects/TestingModelAnalysis/:/Users/jiakun/Projects/TestingModelAnalysis -w /Users/jiakun/Projects/TestingModelAnalysis --device=/dev/kvm atg/common bash
+
+docker run -it --rm -v /Users/jiakun/Projects/TestingModelAnalysis/:/ATGEmpirical -w /ATGEmpirical/tools/ape --device=/dev/kvm atg/common bash
+
+docker run -it --rm atg/common bash
+
+docker build --no-cache -t atg/common .

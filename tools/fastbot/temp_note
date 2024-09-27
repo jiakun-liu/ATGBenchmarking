@@ -1,0 +1,6 @@
+docker run --rm -v /mnt/hdd1/jkliu/Projects/ATGEmpirical/:/ATGEmpirical -w /ATGEmpirical/tools/fastbot --device=/dev/kvm atg/ape timeout 360 bash ./run_fastbot.sh /ATGEmpirical/apks/fdroid/org.wikipedia_50463.apk /ATGEmpirical/temp_test/fastbot/ 360 2>&1 | tee /ATGEmpirical/temp_test/fastbot/log.log
+
+
+docker run -it --rm atg/ape sdkmanager --list
+
+docker run -it --rm androidsdk/android-28:latest

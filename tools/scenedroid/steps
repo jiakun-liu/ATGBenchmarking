@@ -1,0 +1,21 @@
+docker run -it --rm androidsdk/android-28:latest bash
+
+
+docker run -it --rm -v /mnt/hdd1/jkliu/Projects/ATGEmpirical/:/ATGEmpirical -w /ATGEmpirical/tools/scenedroid --device=/dev/kvm androidsdk/android-28:latest bash
+
+docker run -it --rm -v /mnt/hdd1/jkliu/Projects/ATGEmpirical/:/ATGEmpirical -w /ATGEmpirical/tools/scenedroid --device=/dev/kvm atg/scenedroid bash
+
+docker run -it --rm -v /mnt/hdd3/jkliu/Projects/ATGEmpiricalWhole/ATGEmpirical/:/ATGEmpirical --device=/dev/kvm scenedroid bash
+
+/ATGEmpirical/apks_large/fdroid/org.wikipedia_50463.apk
+
+
+
+> log.log
+
+
+python3 main_ATGEmpirical.py --apk_file /ATGEmpirical/apks/fdroid/org.wikipedia_50463.apk --result /ATGEmpirical/temp_test/scenedroid/ --timeout 360 --emulator_name emulator-5554
+
+docker run --rm -v /mnt/hdd1/jkliu/Projects/ATGEmpirical/:/ATGEmpirical -w /ATGEmpirical/tools/scenedroid --device=/dev/kvm atg/scenedroid timeout 3600 bash ./run_scenedroid.sh /ATGEmpirical/apks/fdroid/cf.playhi.freezeyou_151.apk /ATGEmpirical/temp_test/scenedroid/ 3600 2>&1 | tee /ATGEmpirical/temp_test/scenedroid/log.log
+
+docker run --rm -v /mnt/hdd1/jkliu/Projects/ATGEmpirical/:/ATGEmpirical -w /ATGEmpirical/tools/scenedroid --device=/dev/kvm atg/scenedroid timeout 3600 bash ./run_scenedroid.sh /ATGEmpirical/apks/fdroid/org.wikipedia_50463.apk /ATGEmpirical/temp_test/scenedroid/ 3600 2>&1 | tee /ATGEmpirical/temp_test/scenedroid/log.log

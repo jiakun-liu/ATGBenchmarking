@@ -1,0 +1,27 @@
+check the url of qtest from github:
+ https://github.com/the-themis-benchmarks/Q-testing?tab=readme-ov-file
+It should be: https://1drv.ms/u/s!AmfV7AZ50ULThzDYTBcerncLZzWF?e=OWKl5S
+check the download link from browser:
+
+wget https://ldlukw.bn.files.1drv.com/y4m9iek0ZKceC8HksLmH1OHuwW7sW24YVzZMg0WJELTlJwHcIsKn_FAxvr0uIjLzGE-AdCuqsi0GisABniaJ9hYDbYMOO4CSo7bZg9LsbftqMfXZjyRM9CAV_5ojqBhIHrNAECjPozFJmZwXkC-zjCzi9Sfcfhw-PgtVRznNYofpYwy0NsZG6zNox9D6TKcru4hw4n8UDfSf_gkRcCOdI8qJg -O qtest.zip
+
+unzip qtest.zip
+mv q-testing-wgx-publish-pyinstaller Q-testing
+
+# docker run -it --rm --device /dev/kvm androidsdk/android-28:latest bash
+apt-get update
+apt-get -yq install python-pip
+pip install uiautomator==0.3.6
+COPY ./Q-testing /Q-testing
+
+cd qtest
+docker build -f docker/Dockerfile --no-cache -t atg/qtest .
+DOCKER_BUILDKIT=1 docker build -f docker/Dockerfile --no-cache -t atg/qtest .
+
+
+DOCKER_BUILDKIT=1 docker build -f tools/scenedroid/docker_full/Dockerfile --no-cache -t scenedroid .
+
+
+docker run -it --rm -v /mnt/hdd1/jkliu/Projects/ATGEmpirical/:/ATGEmpirical -w /ATGEmpirical/tools/qtest --device=/dev/kvm atg/qtest bash
+
+docker run --rm -v /mnt/hdd1/jkliu/Projects/ATGEmpirical/:/ATGEmpirical -w /ATGEmpirical/tools/qtest --device=/dev/kvm atg/qtest timeout 360 bash ./run_qtesting.sh /ATGEmpirical/apks/fdroid/org.wikipedia_50463.apk /ATGEmpirical/temp_test/qtest/ 360 2>&1 | tee /ATGEmpirical/temp_test/qtest/log.log
