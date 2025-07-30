@@ -1,0 +1,1446 @@
+All Transitions
+APK: /Users/jiakun/Projects/TestingModelAnalysis/apks/fdroid/com.gpl.rpg.AndorsTrail_75.apk
+All results
+Start -> com.gpl.rpg.AndorsTrail.activity.StartScreenActivity
+com.gpl.rpg.AndorsTrail.activity.StartScreenActivity -> com.gpl.rpg.AndorsTrail.activity.MainActivity
+com.gpl.rpg.AndorsTrail.activity.MainActivity -> com.gpl.rpg.AndorsTrail.activity.StartScreenActivity
+com.gpl.rpg.AndorsTrail.activity.MainActivity -> com.gpl.rpg.AndorsTrail.activity.HeroinfoActivity
+com.gpl.rpg.AndorsTrail.activity.HeroinfoActivity -> com.gpl.rpg.AndorsTrail.activity.MainActivity
+com.gpl.rpg.AndorsTrail.activity.HeroinfoActivity -> com.gpl.rpg.AndorsTrail.activity.SkillInfoActivity
+com.gpl.rpg.AndorsTrail.activity.HeroinfoActivity -> com.gpl.rpg.AndorsTrail.activity.LevelUpActivity
+com.gpl.rpg.AndorsTrail.activity.LevelUpActivity -> com.gpl.rpg.AndorsTrail.activity.HeroinfoActivity
+com.gpl.rpg.AndorsTrail.activity.SkillInfoActivity -> com.gpl.rpg.AndorsTrail.activity.HeroinfoActivity
+com.gpl.rpg.AndorsTrail.activity.HeroinfoActivity -> com.gpl.rpg.AndorsTrail.activity.ItemInfoActivity
+com.gpl.rpg.AndorsTrail.activity.ItemInfoActivity -> com.gpl.rpg.AndorsTrail.activity.HeroinfoActivity
+com.gpl.rpg.AndorsTrail.activity.MainActivity -> com.gpl.rpg.AndorsTrail.activity.ConversationActivity
+com.gpl.rpg.AndorsTrail.activity.ConversationActivity -> com.gpl.rpg.AndorsTrail.activity.MainActivity
+com.gpl.rpg.AndorsTrail.activity.MainActivity -> com.gpl.rpg.AndorsTrail.activity.MonsterInfoActivity
+com.gpl.rpg.AndorsTrail.activity.MonsterInfoActivity -> com.gpl.rpg.AndorsTrail.activity.MainActivity
+com.gpl.rpg.AndorsTrail.activity.MainActivity -> com.gpl.rpg.AndorsTrail.activity.MonsterEncounterActivity
+com.gpl.rpg.AndorsTrail.activity.MonsterEncounterActivity -> com.gpl.rpg.AndorsTrail.activity.MainActivity
+com.gpl.rpg.AndorsTrail.activity.MonsterEncounterActivity -> com.gpl.rpg.AndorsTrail.activity.MonsterInfoActivity
+com.gpl.rpg.AndorsTrail.activity.MonsterInfoActivity -> com.gpl.rpg.AndorsTrail.activity.MonsterEncounterActivity
+com.gpl.rpg.AndorsTrail.activity.ConversationActivity -> com.gpl.rpg.AndorsTrail.activity.ShopActivity
+com.gpl.rpg.AndorsTrail.activity.ShopActivity -> com.gpl.rpg.AndorsTrail.activity.MainActivity
+com.gpl.rpg.AndorsTrail.activity.ShopActivity -> com.gpl.rpg.AndorsTrail.activity.ItemInfoActivity
+com.gpl.rpg.AndorsTrail.activity.ItemInfoActivity -> com.gpl.rpg.AndorsTrail.activity.BulkSelectionInterface
+com.gpl.rpg.AndorsTrail.activity.BulkSelectionInterface -> com.gpl.rpg.AndorsTrail.activity.ShopActivity
+com.gpl.rpg.AndorsTrail.activity.ItemInfoActivity -> com.gpl.rpg.AndorsTrail.activity.ShopActivity
+com.gpl.rpg.AndorsTrail.activity.MainActivity -> com.gpl.rpg.AndorsTrail.activity.LoadSaveActivity
+com.gpl.rpg.AndorsTrail.activity.MainActivity -> com.gpl.rpg.AndorsTrail.activity.DisplayWorldMapActivity
+com.gpl.rpg.AndorsTrail.activity.DisplayWorldMapActivity -> com.gpl.rpg.AndorsTrail.activity.MainActivity
+com.gpl.rpg.AndorsTrail.activity.StartScreenActivity -> com.gpl.rpg.AndorsTrail.activity.LoadSaveActivity
+com.gpl.rpg.AndorsTrail.activity.LoadSaveActivity -> com.gpl.rpg.AndorsTrail.activity.StartScreenActivity
+com.gpl.rpg.AndorsTrail.activity.StartScreenActivity -> com.gpl.rpg.AndorsTrail.activity.Preferences
+com.gpl.rpg.AndorsTrail.activity.Preferences -> com.gpl.rpg.AndorsTrail.activity.StartScreenActivity
+com.gpl.rpg.AndorsTrail.activity.StartScreenActivity -> com.gpl.rpg.AndorsTrail.activity.AboutActivity
+com.gpl.rpg.AndorsTrail.activity.AboutActivity -> com.gpl.rpg.AndorsTrail.activity.StartScreenActivity
+com.gpl.rpg.AndorsTrail.activity.LoadSaveActivity -> com.gpl.rpg.AndorsTrail.activity.MainActivity
+APK: /Users/jiakun/Projects/TestingModelAnalysis/apks/fdroid/com.darkempire78.opencalculator_42.apk
+All results
+com.darkempire78.opencalculator.AboutActivity -> com.darkempire78.opencalculator.MainActivity
+com.darkempire78.opencalculator.MainActivity -> com.darkempire78.opencalculator.AboutActivity
+com.darkempire78.opencalculator.MainActivity -> com.darkempire78.opencalculator.SettingsActivity
+Start -> com.darkempire78.opencalculator.MainActivity
+com.darkempire78.opencalculator.SettingsActivity -> com.darkempire78.opencalculator.MainActivity
+APK: /Users/jiakun/Projects/TestingModelAnalysis/apks/fdroid/rocks.poopjournal.vacationdays_9.apk
+All results
+rocks.poopjournal.vacationdays.SettingsActivity -> rocks.poopjournal.vacationdays.MainActivity
+rocks.poopjournal.vacationdays.MainActivity -> rocks.poopjournal.vacationdays.DatePicker
+Start -> rocks.poopjournal.vacationdays.MainActivity
+rocks.poopjournal.vacationdays.DatePicker -> rocks.poopjournal.vacationdays.MainActivity
+rocks.poopjournal.vacationdays.MainActivity -> rocks.poopjournal.vacationdays.About
+rocks.poopjournal.vacationdays.About -> rocks.poopjournal.vacationdays.MainActivity
+rocks.poopjournal.vacationdays.MainActivity -> rocks.poopjournal.vacationdays.SettingsActivity
+APK: /Users/jiakun/Projects/TestingModelAnalysis/apks/fdroid/org.documentfoundation.libreoffice_38.apk
+All results
+org.libreoffice.ui.LibreOfficeUIActivity -> org.libreoffice.SettingsActivity
+org.libreoffice.SettingsActivity -> org.libreoffice.ui.LibreOfficeUIActivity
+org.libreoffice.ui.LibreOfficeUIActivity -> org.libreoffice.LibreOfficeMainActivity
+org.libreoffice.LibreOfficeMainActivity -> org.libreoffice.SettingsActivity
+org.libreoffice.LibreOfficeMainActivity -> org.libreoffice.ui.LibreOfficeUIActivity
+APK: /Users/jiakun/Projects/TestingModelAnalysis/apks/fdroid/org.xphnx.ameixamonochrome_4100.apk
+All results
+Start -> org.xphnx.ameixa.activities.MainActivity
+org.xphnx.ameixa.activities.MainActivity -> org.xphnx.ameixa.activities.IconActivity
+org.xphnx.ameixa.activities.IconActivity -> org.xphnx.ameixa.activities.MainActivity
+org.xphnx.ameixa.activities.MainActivity -> org.xphnx.ameixa.activities.LicenseActivity
+org.xphnx.ameixa.activities.LicenseActivity -> org.xphnx.ameixa.activities.MainActivity
+APK: /Users/jiakun/Projects/TestingModelAnalysis/apks/fdroid/com.github.axet.audiorecorder_377.apk
+All results
+com.github.axet.audiorecorder.activities.MainActivity -> com.github.axet.audiorecorder.activities.RecordingActivity
+Start -> com.github.axet.audiorecorder.activities.MainActivity
+com.github.axet.audiorecorder.activities.RecordingActivity -> com.github.axet.audiorecorder.activities.MainActivity
+com.github.axet.audiorecorder.activities.SettingsActivity -> com.github.axet.audiorecorder.activities.MainActivity
+com.github.axet.audiorecorder.activities.MainActivity -> com.github.axet.audiorecorder.activities.SettingsActivity
+APK: /Users/jiakun/Projects/TestingModelAnalysis/apks/fdroid/de.k3b.android.toGoZip_30.apk
+All results
+Start -> de.k3b.android.toGoZip.SettingsActivity
+de.k3b.android.toGoZip.SettingsActivity -> lib.folderpicker.FolderPicker
+APK: /Users/jiakun/Projects/TestingModelAnalysis/apks/fdroid/com.simplemobiletools.calculator_61.apk
+All results
+Start -> com.simplemobiletools.calculator.activities.MainActivity
+com.simplemobiletools.calculator.activities.MainActivity -> com.simplemobiletools.calculator.activities.UnitConverterPickerActivity
+com.simplemobiletools.calculator.activities.UnitConverterPickerActivity -> com.simplemobiletools.calculator.activities.MainActivity
+com.simplemobiletools.calculator.activities.MainActivity -> com.simplemobiletools.calculator.activities.SettingsActivity
+com.simplemobiletools.calculator.activities.SettingsActivity -> com.simplemobiletools.calculator.activities.MainActivity
+com.simplemobiletools.calculator.activities.SettingsActivity -> com.simplemobiletools.commons.activities.CustomizationActivity
+com.simplemobiletools.commons.activities.CustomizationActivity -> com.simplemobiletools.calculator.activities.SettingsActivity
+com.simplemobiletools.calculator.activities.SettingsActivity -> com.simplemobiletools.calculator.activities.WidgetConfigureActivity
+com.simplemobiletools.calculator.activities.WidgetConfigureActivity -> com.simplemobiletools.calculator.activities.SettingsActivity
+com.simplemobiletools.calculator.activities.MainActivity -> com.simplemobiletools.commons.activities.AboutActivity
+com.simplemobiletools.commons.activities.AboutActivity -> com.simplemobiletools.calculator.activities.MainActivity
+com.simplemobiletools.commons.activities.AboutActivity -> com.simplemobiletools.commons.activities.FAQActivity
+com.simplemobiletools.commons.activities.FAQActivity -> com.simplemobiletools.commons.activities.AboutActivity
+com.simplemobiletools.commons.activities.AboutActivity -> com.simplemobiletools.commons.activities.ContributorsActivity
+com.simplemobiletools.commons.activities.ContributorsActivity -> com.simplemobiletools.commons.activities.AboutActivity
+com.simplemobiletools.commons.activities.AboutActivity -> com.simplemobiletools.commons.activities.LicenseActivity
+com.simplemobiletools.commons.activities.LicenseActivity -> com.simplemobiletools.commons.activities.AboutActivity
+com.simplemobiletools.calculator.activities.UnitConverterPickerActivity -> com.simplemobiletools.calculator.activities.UnitConverterActivity
+com.simplemobiletools.calculator.activities.UnitConverterActivity -> com.simplemobiletools.calculator.activities.UnitConverterPickerActivity
+APK: /Users/jiakun/Projects/TestingModelAnalysis/apks/fdroid/com.jarsilio.android.waveup_121.apk
+All results
+Start -> com.jarsilio.android.waveup.MainActivity
+com.jarsilio.android.waveup.MainActivity -> com.jarsilio.android.common.impressum.ImpressumActivity
+com.jarsilio.android.common.impressum.ImpressumActivity -> com.jarsilio.android.waveup.MainActivity
+com.jarsilio.android.waveup.MainActivity -> com.jarsilio.android.common.privacypolicy.PrivacyPolicyActivity
+com.jarsilio.android.common.privacypolicy.PrivacyPolicyActivity -> com.jarsilio.android.waveup.MainActivity
+com.jarsilio.android.waveup.MainActivity -> com.mikepenz.aboutlibraries.ui.LibsActivity
+com.mikepenz.aboutlibraries.ui.LibsActivity -> com.jarsilio.android.waveup.MainActivity
+APK: /Users/jiakun/Projects/TestingModelAnalysis/apks/fdroid/org.isoron.uhabits_20103.apk
+All results
+Start -> org.isoron.uhabits.activities.intro.IntroActivity
+org.isoron.uhabits.activities.intro.IntroActivity -> org.isoron.uhabits.MainActivity
+org.isoron.uhabits.MainActivity -> org.isoron.uhabits.activities.habits.edit.EditHabitActivity
+org.isoron.uhabits.activities.habits.edit.EditHabitActivity -> org.isoron.uhabits.MainActivity
+org.isoron.uhabits.MainActivity -> org.isoron.uhabits.activities.habits.show.ShowHabitActivity
+org.isoron.uhabits.activities.habits.show.ShowHabitActivity -> org.isoron.uhabits.MainActivity
+org.isoron.uhabits.activities.habits.show.ShowHabitActivity -> org.isoron.uhabits.activities.habits.edit.EditHabitActivity
+org.isoron.uhabits.activities.habits.show.ShowHabitActivity -> org.isoron.uhabits.activities.habits.list.ListHabitsActivity
+org.isoron.uhabits.activities.habits.edit.EditHabitActivity -> org.isoron.uhabits.activities.habits.show.ShowHabitActivity
+org.isoron.uhabits.MainActivity -> org.isoron.uhabits.activities.settings.SettingsActivity
+org.isoron.uhabits.activities.settings.SettingsActivity -> org.isoron.uhabits.MainActivity
+org.isoron.uhabits.activities.settings.SettingsActivity -> org.isoron.uhabits.activities.about.AboutActivity
+org.isoron.uhabits.activities.about.AboutActivity -> org.isoron.uhabits.activities.settings.SettingsActivity
+org.isoron.uhabits.MainActivity -> org.isoron.uhabits.activities.about.AboutActivity
+org.isoron.uhabits.activities.about.AboutActivity -> org.isoron.uhabits.MainActivity
+org.isoron.uhabits.activities.habits.edit.EditHabitActivity -> org.isoron.uhabits.activities.habits.list.ListHabitsActivity
+org.isoron.uhabits.MainActivity -> org.isoron.uhabits.activities.habits.list.ListHabitsActivity
+org.isoron.uhabits.activities.habits.list.ListHabitsActivity -> org.isoron.uhabits.activities.habits.edit.EditHabitActivity
+org.isoron.uhabits.activities.habits.edit.EditHabitActivity -> org.isoron.uhabits.activities.habits.list.ListHabitsActivity
+org.isoron.uhabits.activities.habits.list.ListHabitsActivity -> org.isoron.uhabits.activities.habits.show.ShowHabitActivity
+org.isoron.uhabits.activities.habits.show.ShowHabitActivity -> org.isoron.uhabits.activities.habits.list.ListHabitsActivity
+org.isoron.uhabits.activities.habits.list.ListHabitsActivity -> org.isoron.uhabits.activities.settings.SettingsActivity
+org.isoron.uhabits.activities.settings.SettingsActivity -> org.isoron.uhabits.activities.habits.list.ListHabitsActivity
+org.isoron.uhabits.activities.habits.list.ListHabitsActivity -> org.isoron.uhabits.activities.about.AboutActivity
+org.isoron.uhabits.activities.about.AboutActivity -> org.isoron.uhabits.activities.habits.list.ListHabitsActivity
+APK: /Users/jiakun/Projects/TestingModelAnalysis/apks/fdroid/org.biotstoiq.seshat_11.apk
+All results
+Start -> org.biotstoiq.seshat.IntroActivity
+org.biotstoiq.seshat.IntroActivity -> org.biotstoiq.seshat.HowToActivity
+org.biotstoiq.seshat.HowToActivity -> org.biotstoiq.seshat.MainActivity
+org.biotstoiq.seshat.MainActivity -> org.biotstoiq.seshat.LedgerActivity
+org.biotstoiq.seshat.LedgerActivity -> org.biotstoiq.seshat.MainActivity
+Start -> org.biotstoiq.seshat.MainActivity
+APK: /Users/jiakun/Projects/TestingModelAnalysis/apks/fdroid/cf.playhi.freezeyou_151.apk
+All results
+Start -> cf.playhi.freezeyou.ThirdIcon
+cf.playhi.freezeyou.ThirdIcon -> cf.playhi.freezeyou.ui.FirstTimeSetupActivity
+cf.playhi.freezeyou.ui.FirstTimeSetupActivity -> cf.playhi.freezeyou.ui.SettingsActivity
+cf.playhi.freezeyou.ui.SettingsActivity -> cf.playhi.freezeyou.ui.ScheduledTasksManageActivity
+cf.playhi.freezeyou.ui.ScheduledTasksManageActivity -> cf.playhi.freezeyou.ui.SettingsActivity
+cf.playhi.freezeyou.ui.ScheduledTasksManageActivity -> cf.playhi.freezeyou.ui.ScheduledTasksAddActivity
+cf.playhi.freezeyou.ui.ScheduledTasksAddActivity -> cf.playhi.freezeyou.ui.ScheduledTasksManageActivity
+cf.playhi.freezeyou.ui.SettingsActivity -> cf.playhi.freezeyou.ui.UriAutoAllowManageActivity
+cf.playhi.freezeyou.ui.UriAutoAllowManageActivity -> cf.playhi.freezeyou.ui.SettingsActivity
+cf.playhi.freezeyou.ui.SettingsActivity -> cf.playhi.freezeyou.ui.AutoDiagnosisActivity
+cf.playhi.freezeyou.ui.AutoDiagnosisActivity -> cf.playhi.freezeyou.ui.SettingsActivity
+cf.playhi.freezeyou.ui.SettingsActivity -> cf.playhi.freezeyou.ui.UserDefinedListsManageActivity
+cf.playhi.freezeyou.ui.UserDefinedListsManageActivity -> cf.playhi.freezeyou.ui.SettingsActivity
+cf.playhi.freezeyou.ui.SettingsActivity -> cf.playhi.freezeyou.ui.BackupMainActivity
+cf.playhi.freezeyou.ui.BackupMainActivity -> cf.playhi.freezeyou.ui.SettingsActivity
+cf.playhi.freezeyou.ui.BackupMainActivity -> cf.playhi.freezeyou.ui.BackupImportChooserActivity
+cf.playhi.freezeyou.ui.BackupImportChooserActivity -> cf.playhi.freezeyou.ui.BackupMainActivity
+cf.playhi.freezeyou.ui.SettingsActivity -> cf.playhi.freezeyou.ui.ManualModeActivity
+cf.playhi.freezeyou.ui.ManualModeActivity -> cf.playhi.freezeyou.ui.SettingsActivity
+cf.playhi.freezeyou.ui.SettingsActivity -> cf.playhi.freezeyou.ui.ShowLogcatActivity
+cf.playhi.freezeyou.ui.ShowLogcatActivity -> cf.playhi.freezeyou.ui.SettingsActivity
+cf.playhi.freezeyou.ui.SettingsActivity -> cf.playhi.freezeyou.ui.UninstallActivity
+cf.playhi.freezeyou.ui.UninstallActivity -> cf.playhi.freezeyou.ui.SettingsActivity
+cf.playhi.freezeyou.ui.SettingsActivity -> cf.playhi.freezeyou.ui.AboutActivity
+cf.playhi.freezeyou.ui.AboutActivity -> cf.playhi.freezeyou.ui.SettingsActivity
+cf.playhi.freezeyou.ThirdIcon -> cf.playhi.freezeyou.ui.AboutActivity
+cf.playhi.freezeyou.ui.AboutActivity -> cf.playhi.freezeyou.ThirdIcon
+cf.playhi.freezeyou.ThirdIcon -> cf.playhi.freezeyou.ui.LauncherShortcutConfirmAndGenerateActivity
+cf.playhi.freezeyou.ui.LauncherShortcutConfirmAndGenerateActivity -> cf.playhi.freezeyou.ThirdIcon
+cf.playhi.freezeyou.ui.LauncherShortcutConfirmAndGenerateActivity -> cf.playhi.freezeyou.ui.FUFLauncherShortcutCreator
+cf.playhi.freezeyou.ui.FUFLauncherShortcutCreator -> cf.playhi.freezeyou.ui.LauncherShortcutConfirmAndGenerateActivity
+cf.playhi.freezeyou.ui.LauncherShortcutConfirmAndGenerateActivity -> cf.playhi.freezeyou.ui.SelectTargetActivityActivity
+cf.playhi.freezeyou.ui.SelectTargetActivityActivity -> cf.playhi.freezeyou.ui.LauncherShortcutConfirmAndGenerateActivity
+cf.playhi.freezeyou.ui.LauncherShortcutConfirmAndGenerateActivity -> cf.playhi.freezeyou.Freeze
+cf.playhi.freezeyou.Freeze -> cf.playhi.freezeyou.ui.LauncherShortcutConfirmAndGenerateActivity
+cf.playhi.freezeyou.ThirdIcon -> cf.playhi.freezeyou.Freeze
+cf.playhi.freezeyou.Freeze -> cf.playhi.freezeyou.ThirdIcon
+cf.playhi.freezeyou.ThirdIcon -> cf.playhi.freezeyou.ui.ScheduledTasksManageActivity
+cf.playhi.freezeyou.ui.ScheduledTasksManageActivity -> cf.playhi.freezeyou.ThirdIcon
+cf.playhi.freezeyou.ThirdIcon -> cf.playhi.freezeyou.ui.BackupMainActivity
+cf.playhi.freezeyou.ui.BackupMainActivity -> cf.playhi.freezeyou.ThirdIcon
+APK: /Users/jiakun/Projects/TestingModelAnalysis/apks/fdroid/org.secuso.privacyfriendlyfinancemanager_7.apk
+All results
+org.secuso.privacyfriendlyfinance.activities.TutorialActivity
+org.secuso.privacyfriendlyfinance.activities.TransactionsActivity
+org.secuso.privacyfriendlyfinance.activities.CategoriesActivity
+org.secuso.privacyfriendlyfinance.activities.RepeatingTransactionsActivity
+org.secuso.privacyfriendlyfinance.activities.HelpActivity
+org.secuso.privacyfriendlyfinance.activities.AccountsActivity
+org.secuso.privacyfriendlyfinance.activities.AboutActivity
+Start -> org.secuso.privacyfriendlyfinance.activities.TutorialActivity
+org.secuso.privacyfriendlyfinance.activities.TutorialActivity -> org.secuso.privacyfriendlyfinance.activities.TransactionsActivity
+org.secuso.privacyfriendlyfinance.activities.TutorialActivity -> org.secuso.privacyfriendlyfinance.activities.CategoriesActivity
+org.secuso.privacyfriendlyfinance.activities.TutorialActivity -> org.secuso.privacyfriendlyfinance.activities.RepeatingTransactionsActivity
+org.secuso.privacyfriendlyfinance.activities.TutorialActivity -> org.secuso.privacyfriendlyfinance.activities.HelpActivity
+org.secuso.privacyfriendlyfinance.activities.TutorialActivity -> org.secuso.privacyfriendlyfinance.activities.AccountsActivity
+org.secuso.privacyfriendlyfinance.activities.TutorialActivity -> org.secuso.privacyfriendlyfinance.activities.AboutActivity
+org.secuso.privacyfriendlyfinance.activities.TransactionsActivity -> org.secuso.privacyfriendlyfinance.activities.TutorialActivity
+org.secuso.privacyfriendlyfinance.activities.TransactionsActivity -> org.secuso.privacyfriendlyfinance.activities.HelpActivity
+org.secuso.privacyfriendlyfinance.activities.TransactionsActivity -> org.secuso.privacyfriendlyfinance.activities.AboutActivity
+org.secuso.privacyfriendlyfinance.activities.TransactionsActivity -> org.secuso.privacyfriendlyfinance.activities.CategoriesActivity
+org.secuso.privacyfriendlyfinance.activities.TransactionsActivity -> org.secuso.privacyfriendlyfinance.activities.AccountsActivity
+org.secuso.privacyfriendlyfinance.activities.TransactionsActivity -> org.secuso.privacyfriendlyfinance.activities.RepeatingTransactionsActivity
+org.secuso.privacyfriendlyfinance.activities.CategoriesActivity -> org.secuso.privacyfriendlyfinance.activities.TransactionsActivity
+org.secuso.privacyfriendlyfinance.activities.CategoriesActivity -> org.secuso.privacyfriendlyfinance.activities.TutorialActivity
+org.secuso.privacyfriendlyfinance.activities.CategoriesActivity -> org.secuso.privacyfriendlyfinance.activities.HelpActivity
+org.secuso.privacyfriendlyfinance.activities.CategoriesActivity -> org.secuso.privacyfriendlyfinance.activities.AboutActivity
+org.secuso.privacyfriendlyfinance.activities.CategoriesActivity -> org.secuso.privacyfriendlyfinance.activities.AccountsActivity
+org.secuso.privacyfriendlyfinance.activities.CategoriesActivity -> org.secuso.privacyfriendlyfinance.activities.RepeatingTransactionsActivity
+org.secuso.privacyfriendlyfinance.activities.RepeatingTransactionsActivity -> org.secuso.privacyfriendlyfinance.activities.CategoriesActivity
+org.secuso.privacyfriendlyfinance.activities.RepeatingTransactionsActivity -> org.secuso.privacyfriendlyfinance.activities.TransactionsActivity
+org.secuso.privacyfriendlyfinance.activities.RepeatingTransactionsActivity -> org.secuso.privacyfriendlyfinance.activities.TutorialActivity
+org.secuso.privacyfriendlyfinance.activities.RepeatingTransactionsActivity -> org.secuso.privacyfriendlyfinance.activities.HelpActivity
+org.secuso.privacyfriendlyfinance.activities.RepeatingTransactionsActivity -> org.secuso.privacyfriendlyfinance.activities.AboutActivity
+org.secuso.privacyfriendlyfinance.activities.RepeatingTransactionsActivity -> org.secuso.privacyfriendlyfinance.activities.AccountsActivity
+org.secuso.privacyfriendlyfinance.activities.HelpActivity -> org.secuso.privacyfriendlyfinance.activities.RepeatingTransactionsActivity
+org.secuso.privacyfriendlyfinance.activities.HelpActivity -> org.secuso.privacyfriendlyfinance.activities.CategoriesActivity
+org.secuso.privacyfriendlyfinance.activities.HelpActivity -> org.secuso.privacyfriendlyfinance.activities.TransactionsActivity
+org.secuso.privacyfriendlyfinance.activities.HelpActivity -> org.secuso.privacyfriendlyfinance.activities.TutorialActivity
+org.secuso.privacyfriendlyfinance.activities.HelpActivity -> org.secuso.privacyfriendlyfinance.activities.AboutActivity
+org.secuso.privacyfriendlyfinance.activities.HelpActivity -> org.secuso.privacyfriendlyfinance.activities.AccountsActivity
+org.secuso.privacyfriendlyfinance.activities.AccountsActivity -> org.secuso.privacyfriendlyfinance.activities.HelpActivity
+org.secuso.privacyfriendlyfinance.activities.AccountsActivity -> org.secuso.privacyfriendlyfinance.activities.CategoriesActivity
+org.secuso.privacyfriendlyfinance.activities.AccountsActivity -> org.secuso.privacyfriendlyfinance.activities.TransactionsActivity
+org.secuso.privacyfriendlyfinance.activities.AccountsActivity -> org.secuso.privacyfriendlyfinance.activities.TutorialActivity
+org.secuso.privacyfriendlyfinance.activities.AccountsActivity -> org.secuso.privacyfriendlyfinance.activities.AboutActivity
+org.secuso.privacyfriendlyfinance.activities.AccountsActivity -> org.secuso.privacyfriendlyfinance.activities.RepeatingTransactionsActivity
+org.secuso.privacyfriendlyfinance.activities.AboutActivity -> org.secuso.privacyfriendlyfinance.activities.AccountsActivity
+org.secuso.privacyfriendlyfinance.activities.AboutActivity -> org.secuso.privacyfriendlyfinance.activities.HelpActivity
+org.secuso.privacyfriendlyfinance.activities.AboutActivity -> org.secuso.privacyfriendlyfinance.activities.CategoriesActivity
+org.secuso.privacyfriendlyfinance.activities.AboutActivity -> org.secuso.privacyfriendlyfinance.activities.TransactionsActivity
+org.secuso.privacyfriendlyfinance.activities.AboutActivity -> org.secuso.privacyfriendlyfinance.activities.TutorialActivity
+org.secuso.privacyfriendlyfinance.activities.AboutActivity -> org.secuso.privacyfriendlyfinance.activities.RepeatingTransactionsActivity
+org.secuso.privacyfriendlyfinance.activities.AccountsActivity -> org.secuso.privacyfriendlyfinance.activities.AccountActivity
+org.secuso.privacyfriendlyfinance.activities.AccountActivity -> org.secuso.privacyfriendlyfinance.activities.AccountsActivity
+org.secuso.privacyfriendlyfinance.activities.CategoriesActivity -> org.secuso.privacyfriendlyfinance.activities.CategoryActivity
+org.secuso.privacyfriendlyfinance.activities.CategoryActivity -> org.secuso.privacyfriendlyfinance.activities.CategoriesActivity
+APK: /Users/jiakun/Projects/TestingModelAnalysis/apks/fdroid/com.smartpack.packagemanager_70.apk
+All results
+com.smartpack.packagemanager.activities.StartActivity
+com.smartpack.packagemanager.activities.ExportedAppsActivity
+com.smartpack.packagemanager.activities.FilePickerActivity
+in.sunilpaulmathew.sCommon.CrashReporter.sCrashReporterActivity
+com.smartpack.packagemanager.activities.UninstalledAppsActivity
+com.smartpack.packagemanager.activities.PackageExploreActivity
+com.smartpack.packagemanager.activities.PackageDetailsActivity
+com.smartpack.packagemanager.activities.InstallerInstructionsActivity
+com.smartpack.packagemanager.activities.SettingsActivity
+com.smartpack.packagemanager.activities.ImageViewActivity
+com.smartpack.packagemanager.activities.TextViewActivity
+in.sunilpaulmathew.sCommon.Credits.sCreditsActivity
+com.smartpack.packagemanager.MainActivity
+com.smartpack.packagemanager.activities.PackageTasksActivity
+com.smartpack.packagemanager.activities.InstallerActivity
+com.smartpack.packagemanager.activities.ADBUninstallActivity
+com.smartpack.packagemanager.activities.APKPickerActivity
+Start -> com.smartpack.packagemanager.activities.StartActivity
+com.smartpack.packagemanager.activities.StartActivity -> com.smartpack.packagemanager.MainActivity
+com.smartpack.packagemanager.MainActivity -> com.smartpack.packagemanager.activities.InstallerInstructionsActivity
+com.smartpack.packagemanager.activities.InstallerInstructionsActivity -> com.smartpack.packagemanager.MainActivity
+com.smartpack.packagemanager.activities.InstallerInstructionsActivity -> com.smartpack.packagemanager.activities.FilePickerActivity
+com.smartpack.packagemanager.activities.FilePickerActivity -> com.smartpack.packagemanager.MainActivity
+com.smartpack.packagemanager.MainActivity -> com.smartpack.packagemanager.activities.ExportedAppsActivity
+com.smartpack.packagemanager.activities.ExportedAppsActivity -> com.smartpack.packagemanager.MainActivity
+com.smartpack.packagemanager.MainActivity -> com.smartpack.packagemanager.activities.SettingsActivity
+com.smartpack.packagemanager.activities.SettingsActivity -> com.smartpack.packagemanager.MainActivity
+com.smartpack.packagemanager.activities.SettingsActivity -> in.sunilpaulmathew.sCommon.Credits.sCreditsActivity
+in.sunilpaulmathew.sCommon.Credits.sCreditsActivity -> com.smartpack.packagemanager.activities.SettingsActivity
+com.smartpack.packagemanager.MainActivity -> com.smartpack.packagemanager.activities.PackageDetailsActivity
+com.smartpack.packagemanager.activities.PackageDetailsActivity -> com.smartpack.packagemanager.MainActivity
+com.smartpack.packagemanager.activities.PackageDetailsActivity -> com.smartpack.packagemanager.activities.PackageExploreActivity
+com.smartpack.packagemanager.activities.PackageExploreActivity -> com.smartpack.packagemanager.activities.TextViewActivity
+com.smartpack.packagemanager.activities.TextViewActivity -> com.smartpack.packagemanager.activities.PackageExploreActivity
+com.smartpack.packagemanager.activities.PackageExploreActivity -> com.smartpack.packagemanager.activities.ImageViewActivity
+com.smartpack.packagemanager.activities.ImageViewActivity -> com.smartpack.packagemanager.activities.PackageExploreActivity
+com.smartpack.packagemanager.activities.PackageExploreActivity -> com.smartpack.packagemanager.activities.PackageDetailsActivity
+com.smartpack.packagemanager.activities.PackageDetailsActivity -> com.smartpack.packagemanager.activities.ADBUninstallActivity
+com.smartpack.packagemanager.activities.ADBUninstallActivity -> com.smartpack.packagemanager.activities.PackageDetailsActivity
+APK: /Users/jiakun/Projects/TestingModelAnalysis/apks/fdroid/xyz.myachin.saveto_24.apk
+All results
+Start -> xyz.myachin.saveto.ui.MainActivity
+xyz.myachin.saveto.ui.MainActivity -> xyz.myachin.saveto.ui.settings.MainSettingsActivity
+xyz.myachin.saveto.ui.settings.MainSettingsActivity -> xyz.myachin.saveto.ui.supports.DisableLaunchIconActivity
+xyz.myachin.saveto.ui.supports.DisableLaunchIconActivity -> xyz.myachin.saveto.ui.settings.MainSettingsActivity
+xyz.myachin.saveto.ui.settings.MainSettingsActivity -> xyz.myachin.saveto.ui.settings.MimeTypesSettingsActivity
+xyz.myachin.saveto.ui.settings.MimeTypesSettingsActivity -> xyz.myachin.saveto.ui.settings.MainSettingsActivity
+xyz.myachin.saveto.ui.settings.MainSettingsActivity -> xyz.myachin.saveto.ui.MainActivity
+Start -> net.sourceforge.opencamera.MainActivity
+APK: /Users/jiakun/Projects/TestingModelAnalysis/apks/fdroid/de.markusfisch.android.wavelines_23.apk
+All results
+Start -> de.markusfisch.android.wavelines.activity.GalleryActivity
+de.markusfisch.android.wavelines.activity.GalleryActivity -> de.markusfisch.android.wavelines.activity.ThemeActivity
+de.markusfisch.android.wavelines.activity.ThemeActivity -> de.markusfisch.android.wavelines.activity.EditorActivity
+de.markusfisch.android.wavelines.activity.ThemeActivity -> de.markusfisch.android.wavelines.activity.GalleryActivity
+de.markusfisch.android.wavelines.activity.EditorActivity -> de.markusfisch.android.wavelines.activity.ThemeActivity
+de.markusfisch.android.wavelines.activity.EditorActivity -> de.markusfisch.android.wavelines.activity.PreviewActivity
+de.markusfisch.android.wavelines.activity.PreviewActivity -> de.markusfisch.android.wavelines.activity.EditorActivity
+APK: /Users/jiakun/Projects/TestingModelAnalysis/apks/fdroid/com.serwylo.babydots_10907.apk
+All results
+Start -> com.serwylo.babydots.MainActivity
+com.serwylo.babydots.MainActivity -> com.serwylo.babydots.AboutActivity
+com.serwylo.babydots.MainActivity -> com.serwylo.babydots.SettingsActivity
+com.serwylo.babydots.AboutActivity -> com.serwylo.babydots.MainActivity
+com.serwylo.babydots.SettingsActivity -> com.serwylo.babydots.MainActivity
+APK: /Users/jiakun/Projects/TestingModelAnalysis/apks/fdroid/com.vincent_falzon.discreetlauncher_63.apk
+All results
+Start -> com.vincent_falzon.discreetlauncher.ActivityMain
+com.vincent_falzon.discreetlauncher.ActivityMain -> com.vincent_falzon.discreetlauncher.menu.ActivityFavorites
+com.vincent_falzon.discreetlauncher.menu.ActivityFavorites -> com.vincent_falzon.discreetlauncher.ActivityMain
+com.vincent_falzon.discreetlauncher.ActivityMain -> com.vincent_falzon.discreetlauncher.menu.ActivityFolders
+com.vincent_falzon.discreetlauncher.menu.ActivityFolders -> com.vincent_falzon.discreetlauncher.ActivityMain
+com.vincent_falzon.discreetlauncher.ActivityMain -> com.vincent_falzon.discreetlauncher.settings.ActivitySettingsAppearance
+com.vincent_falzon.discreetlauncher.settings.ActivitySettingsAppearance -> com.vincent_falzon.discreetlauncher.ActivityMain
+com.vincent_falzon.discreetlauncher.ActivityMain -> com.vincent_falzon.discreetlauncher.settings.ActivitySettingsOperation
+com.vincent_falzon.discreetlauncher.settings.ActivitySettingsOperation -> com.vincent_falzon.discreetlauncher.ActivityMain
+com.vincent_falzon.discreetlauncher.ActivityMain -> com.vincent_falzon.discreetlauncher.settings.ActivityExportImport
+com.vincent_falzon.discreetlauncher.settings.ActivityExportImport -> com.vincent_falzon.discreetlauncher.ActivityMain
+APK: /Users/jiakun/Projects/TestingModelAnalysis/apks/fdroid/at.tomtasche.reader_172.apk
+All results
+Start -> at.tomtasche.reader.ui.activity.MainActivity
+at.tomtasche.reader.ui.activity.MainActivity -> com.nononsenseapps.filepicker.FilePickerActivity
+com.nononsenseapps.filepicker.FilePickerActivity -> at.tomtasche.reader.ui.activity.MainActivity
+APK: /Users/jiakun/Projects/TestingModelAnalysis/apks/fdroid/eu.depau.etchdroid_21.apk
+All results
+Start -> eu.depau.etchdroid.ui.MainActivity
+eu.depau.etchdroid.ui.MainActivity -> eu.depau.etchdroid.ui.AboutActivity
+eu.depau.etchdroid.ui.AboutActivity -> eu.depau.etchdroid.ui.MainActivity
+APK: /Users/jiakun/Projects/TestingModelAnalysis/apks/fdroid/com.osfans.trime_20240101.apk
+All results
+Start -> com.osfans.trime.ui.setup.SetupActivity
+com.osfans.trime.ui.setup.SetupActivity -> com.osfans.trime.PrefLauncherAlias
+com.osfans.trime.PrefLauncherAlias -> com.osfans.trime.ui.main.LogActivity
+com.osfans.trime.ui.main.LogActivity -> com.osfans.trime.PrefLauncherAlias
+APK: /Users/jiakun/Projects/TestingModelAnalysis/apks/androzoo/com.mlevap.datecalc_41.0.apk
+All results
+Start -> com.mlevap.datecalc.DateCalcActivity
+com.mlevap.datecalc.DateCalcActivity -> com.mlevap.datecalc.FontSettings
+com.mlevap.datecalc.FontSettings -> com.mlevap.datecalc.DateCalcActivity
+com.mlevap.datecalc.DateCalcActivity -> com.mlevap.datecalc.ToastWidget
+com.mlevap.datecalc.ToastWidget -> com.mlevap.datecalc.DateCalcActivity
+APK: /Users/jiakun/Projects/TestingModelAnalysis/apks/fdroid/org.piepmeyer.gauguin_18.apk
+All results
+Start -> org.piepmeyer.gauguin.ui.main.MainActivity
+org.piepmeyer.gauguin.ui.main.MainActivity -> org.piepmeyer.gauguin.ui.SettingsActivity
+org.piepmeyer.gauguin.ui.SettingsActivity -> org.piepmeyer.gauguin.ui.main.MainActivity
+org.piepmeyer.gauguin.ui.main.MainActivity -> org.piepmeyer.gauguin.ui.newgame.NewGameActivity
+org.piepmeyer.gauguin.ui.newgame.NewGameActivity -> org.piepmeyer.gauguin.ui.main.MainActivity
+org.piepmeyer.gauguin.ui.main.MainActivity -> org.piepmeyer.gauguin.ui.LoadGameListActivity
+org.piepmeyer.gauguin.ui.LoadGameListActivity -> org.piepmeyer.gauguin.ui.main.MainActivity
+org.piepmeyer.gauguin.ui.StatisticsActivity -> org.piepmeyer.gauguin.ui.main.MainActivity
+org.piepmeyer.gauguin.ui.main.MainActivity -> org.piepmeyer.gauguin.ui.StatisticsActivity
+APK: /Users/jiakun/Projects/TestingModelAnalysis/apks/fdroid/eu.zimbelstern.tournant_18.apk
+All results
+Start -> eu.zimbelstern.tournant.ui.MainActivity
+eu.zimbelstern.tournant.ui.MainActivity -> eu.zimbelstern.tournant.ui.RecipeEditingActivity
+eu.zimbelstern.tournant.ui.RecipeEditingActivity -> eu.zimbelstern.tournant.ui.MainActivity
+eu.zimbelstern.tournant.ui.MainActivity -> eu.zimbelstern.tournant.ui.AboutActivity
+eu.zimbelstern.tournant.ui.AboutActivity -> eu.zimbelstern.tournant.ui.MainActivity
+eu.zimbelstern.tournant.ui.MainActivity -> eu.zimbelstern.tournant.ui.RecipeActivity
+eu.zimbelstern.tournant.ui.RecipeActivity -> eu.zimbelstern.tournant.ui.MainActivity
+eu.zimbelstern.tournant.ui.RecipeActivity -> eu.zimbelstern.tournant.ui.RecipeEditingActivity
+eu.zimbelstern.tournant.ui.RecipeEditingActivity -> eu.zimbelstern.tournant.ui.RecipeActivity
+eu.zimbelstern.tournant.ui.MainActivity -> eu.zimbelstern.tournant.ui.SettingsActivity
+eu.zimbelstern.tournant.ui.SettingsActivity -> eu.zimbelstern.tournant.ui.MainActivity
+APK: /Users/jiakun/Projects/TestingModelAnalysis/apks/fdroid/at.jclehner.rxdroid_9380.apk
+All results
+Start -> at.jclehner.rxdroid.DoseTimePreferenceActivity2
+at.jclehner.rxdroid.DoseTimePreferenceActivity2 -> at.jclehner.rxdroid.DrugListActivity2
+at.jclehner.rxdroid.DrugListActivity2 -> at.jclehner.rxdroid.DrugEditActivity2
+at.jclehner.rxdroid.DrugEditActivity2 -> at.jclehner.rxdroid.DrugListActivity2
+at.jclehner.rxdroid.DrugListActivity2 -> at.jclehner.rxdroid.SettingsActivity
+at.jclehner.rxdroid.SettingsActivity -> at.jclehner.rxdroid.DrugListActivity2
+at.jclehner.rxdroid.SettingsActivity -> at.jclehner.rxdroid.DoseTimePreferenceActivity2
+at.jclehner.rxdroid.DoseTimePreferenceActivity2 -> at.jclehner.rxdroid.SettingsActivity
+at.jclehner.rxdroid.SettingsActivity -> at.jclehner.rxdroid.BackupActivity
+at.jclehner.rxdroid.BackupActivity -> at.jclehner.rxdroid.SettingsActivity
+at.jclehner.rxdroid.DrugListActivity2 -> at.jclehner.rxdroid.DoseHistoryActivity
+at.jclehner.rxdroid.DoseHistoryActivity -> at.jclehner.rxdroid.DrugListActivity2
+APK: /Users/jiakun/Projects/TestingModelAnalysis/apks/fdroid/com.wmstein.transektcount_401.apk
+All results
+Start -> com.wmstein.transektcount.WelcomeActivity
+com.wmstein.transektcount.WelcomeActivity -> com.wmstein.transektcount.EditMetaActivity
+com.wmstein.transektcount.EditMetaActivity -> com.wmstein.transektcount.WelcomeActivity
+com.wmstein.transektcount.WelcomeActivity -> com.wmstein.transektcount.ListSectionActivity
+com.wmstein.transektcount.ListSectionActivity -> com.wmstein.transektcount.WelcomeActivity
+com.wmstein.transektcount.ListSectionActivity -> com.wmstein.transektcount.CountingActivity
+com.wmstein.transektcount.CountingActivity -> com.wmstein.transektcount.CountOptionsActivity
+com.wmstein.transektcount.CountOptionsActivity -> com.wmstein.transektcount.CountingActivity
+com.wmstein.transektcount.CountingActivity -> com.wmstein.transektcount.EditSectionActivity
+com.wmstein.transektcount.EditSectionActivity -> com.wmstein.transektcount.CountingActivity
+com.wmstein.transektcount.EditSectionActivity -> com.wmstein.transektcount.AddSpeciesActivity
+com.wmstein.transektcount.AddSpeciesActivity -> com.wmstein.transektcount.EditSectionActivity
+com.wmstein.transektcount.WelcomeActivity -> com.wmstein.transektcount.ListSpeciesActivity
+com.wmstein.transektcount.ListSpeciesActivity -> com.wmstein.transektcount.WelcomeActivity
+com.wmstein.transektcount.WelcomeActivity -> com.wmstein.transektcount.SettingsActivity
+com.wmstein.transektcount.SettingsActivity -> com.wmstein.transektcount.WelcomeActivity
+com.wmstein.transektcount.WelcomeActivity -> com.wmstein.filechooser.AdvFileChooser
+com.wmstein.filechooser.AdvFileChooser -> com.wmstein.transektcount.WelcomeActivity
+com.wmstein.transektcount.ListSectionActivity -> com.wmstein.transektcount.EditSectionActivity
+com.wmstein.transektcount.EditSectionActivity -> com.wmstein.transektcount.ListSectionActivity
+com.wmstein.transektcount.CountingActivity -> com.wmstein.transektcount.ListSectionActivity
+APK: /Users/jiakun/Projects/TestingModelAnalysis/apks/fdroid/com.mrmannwood.hexlauncher_51.apk
+All results
+Start -> com.mrmannwood.hexlauncher.launcher.LauncherActivity
+com.mrmannwood.hexlauncher.settings.SettingsActivity -> com.mrmannwood.hexlauncher.launcher.LauncherActivity
+com.mrmannwood.hexlauncher.launcher.LauncherActivity -> com.mrmannwood.hexlauncher.home.HomeArrangementActivity
+com.mrmannwood.hexlauncher.launcher.LauncherActivity -> com.mrmannwood.hexlauncher.settings.SettingsActivity
+com.mrmannwood.hexlauncher.home.HomeArrangementActivity -> com.mrmannwood.hexlauncher.launcher.LauncherActivity
+APK: /Users/jiakun/Projects/TestingModelAnalysis/apks/fdroid/org.woheller69.arity_54.apk
+All results
+Start -> org.woheller69.arityarity.calculator.Calculator
+arity.calculator.Calculator -> arity.calculator.ShowGraph
+arity.calculator.ShowGraph -> arity.calculator.Calculator
+arity.calculator.Calculator -> arity.calculator.Help
+arity.calculator.Help -> arity.calculator.Calculator
+arity.calculator.Calculator -> arity.calculator.Settings
+arity.calculator.Settings -> arity.calculator.Calculator
+APK: /Users/jiakun/Projects/TestingModelAnalysis/apks/fdroid/de.nulide.shiftcal_16.apk
+All results
+Start -> de.nulide.shiftcal.CalendarActivity
+de.nulide.shiftcal.CalendarActivity -> de.nulide.shiftcal.settings.SettingsActivity
+de.nulide.shiftcal.settings.SettingsActivity -> de.nulide.shiftcal.CalendarActivity
+de.nulide.shiftcal.CalendarActivity -> de.nulide.shiftcal.ShiftsActivity
+de.nulide.shiftcal.ShiftsActivity -> de.nulide.shiftcal.CalendarActivity
+de.nulide.shiftcal.ShiftsActivity -> de.nulide.shiftcal.ShiftCreatorActivity
+de.nulide.shiftcal.ShiftCreatorActivity -> de.nulide.shiftcal.ShiftsActivity
+de.nulide.shiftcal.settings.SettingsActivity -> de.nulide.shiftcal.settings.ThemeActivity
+de.nulide.shiftcal.settings.ThemeActivity -> de.nulide.shiftcal.settings.SettingsActivity
+de.nulide.shiftcal.settings.SettingsActivity -> de.nulide.shiftcal.settings.DNDActivity
+de.nulide.shiftcal.settings.DNDActivity -> de.nulide.shiftcal.settings.SettingsActivity
+de.nulide.shiftcal.settings.SettingsActivity -> de.nulide.shiftcal.settings.AlarmActivity
+de.nulide.shiftcal.settings.AlarmActivity -> de.nulide.shiftcal.settings.SettingsActivity
+de.nulide.shiftcal.settings.SettingsActivity -> de.nulide.shiftcal.settings.CalendarSyncActivity
+de.nulide.shiftcal.settings.CalendarSyncActivity -> de.nulide.shiftcal.settings.SettingsActivity
+de.nulide.shiftcal.settings.AboutActivity -> de.nulide.shiftcal.settings.SettingsActivity
+de.nulide.shiftcal.settings.SettingsActivity -> de.nulide.shiftcal.settings.AboutActivity
+APK: /Users/jiakun/Projects/TestingModelAnalysis/apks/fdroid/com.dozingcatsoftware.bouncy_38.apk
+All results
+Start -> com.dozingcatsoftware.bouncy.BouncyActivity
+com.dozingcatsoftware.bouncy.BouncyActivity -> com.dozingcatsoftware.bouncy.AboutActivity
+com.dozingcatsoftware.bouncy.AboutActivity -> com.dozingcatsoftware.bouncy.BouncyActivity
+com.dozingcatsoftware.bouncy.BouncyActivity -> com.dozingcatsoftware.bouncy.BouncyPreferences
+com.dozingcatsoftware.bouncy.BouncyPreferences -> com.dozingcatsoftware.bouncy.BouncyActivity
+APK: /Users/jiakun/Projects/TestingModelAnalysis/apks/fdroid/hu.vmiklos.plees_tracker_51.apk
+All results
+Start -> hu.vmiklos.plees_tracker.MainActivity
+hu.vmiklos.plees_tracker.SleepActivity -> hu.vmiklos.plees_tracker.MainActivity
+hu.vmiklos.plees_tracker.MainActivity -> hu.vmiklos.plees_tracker.PreferencesActivity
+hu.vmiklos.plees_tracker.MainActivity -> hu.vmiklos.plees_trackercom.mikepenz.aboutlibraries.ui.LibsActivity
+hu.vmiklos.plees_tracker.SleepActivity -> hu.vmiklos.plees_trackercom.mikepenz.aboutlibraries.ui.LibsActivity
+hu.vmiklos.plees_trackercom.mikepenz.aboutlibraries.ui.LibsActivity -> hu.vmiklos.plees_tracker.SleepActivity
+hu.vmiklos.plees_tracker.MainActivity -> hu.vmiklos.plees_tracker.SleepActivity
+com.mikepenz.aboutlibraries.ui.LibsActivity -> hu.vmiklos.plees_tracker.MainActivity
+hu.vmiklos.plees_tracker.GraphsActivity -> hu.vmiklos.plees_tracker.MainActivity
+hu.vmiklos.plees_tracker.MainActivity -> hu.vmiklos.plees_tracker.GraphsActivity
+hu.vmiklos.plees_tracker.MainActivity -> hu.vmiklos.plees_tracker.StatsActivity
+hu.vmiklos.plees_tracker.StatsActivity -> hu.vmiklos.plees_tracker.MainActivity
+hu.vmiklos.plees_tracker.PreferencesActivity -> hu.vmiklos.plees_tracker.MainActivity
+hu.vmiklos.plees_tracker.MainActivity -> com.mikepenz.aboutlibraries.ui.LibsActivity
+APK: /Users/jiakun/Projects/TestingModelAnalysis/apks/fdroid/com.github.muellerma.mute_reminder_18.apk
+All results
+Start -> com.github.muellerma.mute_reminder.MainActivity
+com.github.muellerma.mute_reminder.MainActivity -> com.github.muellerma.mute_reminder.PreferenceActivity
+com.github.muellerma.mute_reminder.PreferenceActivity -> com.github.muellerma.mute_reminder.MainActivity
+APK: /Users/jiakun/Projects/TestingModelAnalysis/apks/fdroid/com.forrestguice.suntimeswidget_106.apk
+All results
+Start -> com.forrestguice.suntimeswidget.WelcomeActivity
+com.forrestguice.suntimeswidget.WelcomeActivity -> com.forrestguice.suntimeswidget.SuntimesActivity
+com.forrestguice.suntimeswidget.SuntimesActivity -> com.forrestguice.suntimeswidget.SuntimesSettingsActivity
+com.forrestguice.suntimeswidget.SuntimesSettingsActivity -> com.forrestguice.suntimeswidget.SuntimesWidgetListActivity
+com.forrestguice.suntimeswidget.SuntimesWidgetListActivity -> com.forrestguice.suntimeswidget.themes.WidgetThemeListActivity
+com.forrestguice.suntimeswidget.themes.WidgetThemeListActivity -> com.forrestguice.suntimeswidget.themes.WidgetThemeConfigActivity
+com.forrestguice.suntimeswidget.themes.WidgetThemeListActivity -> com.forrestguice.suntimeswidget.AboutActivity
+com.forrestguice.suntimeswidget.SuntimesSettingsActivity -> com.forrestguice.suntimeswidget.WelcomeActivity
+com.forrestguice.suntimeswidget.WelcomeActivity -> com.forrestguice.suntimeswidget.SuntimesSettingsActivity
+com.forrestguice.suntimeswidget.SuntimesSettingsActivity -> com.forrestguice.suntimeswidget.getfix.PlacesActivity
+com.forrestguice.suntimeswidget.getfix.PlacesActivity -> com.forrestguice.suntimeswidget.SuntimesSettingsActivity
+com.forrestguice.suntimeswidget.SuntimesSettingsActivity -> com.forrestguice.suntimeswidget.events.EventListActivity
+com.forrestguice.suntimeswidget.SuntimesActivity -> com.forrestguice.suntimeswidget.events.EventListActivity
+com.forrestguice.suntimeswidget.events.EventListActivity -> com.forrestguice.suntimeswidget.SuntimesActivity
+com.forrestguice.suntimeswidget.SuntimesActivity -> com.forrestguice.suntimeswidget.alarmclock.ui.AlarmEditActivity
+com.forrestguice.suntimeswidget.alarmclock.ui.AlarmEditActivity -> com.forrestguice.suntimeswidget.alarmclock.ui.AlarmClockActivity
+com.forrestguice.suntimeswidget.actions.ActionListActivity -> com.forrestguice.suntimeswidget.alarmclock.ui.AlarmEditActivity
+com.forrestguice.suntimeswidget.alarmclock.ui.AlarmClockActivity -> com.forrestguice.suntimeswidget.SuntimesActivity
+com.forrestguice.suntimeswidget.SuntimesSettingsActivity -> com.forrestguice.suntimeswidget.SuntimesActivity
+com.forrestguice.suntimeswidget.AboutActivity -> com.forrestguice.suntimeswidget.SuntimesActivity
+com.forrestguice.suntimeswidget.SuntimesActivity -> com.forrestguice.suntimeswidget.AboutActivity
+APK: /Users/jiakun/Projects/TestingModelAnalysis/apks/fdroid/org.secuso.privacyfriendlypasswordgenerator_7.apk
+All results
+Start -> org.secuso.privacyfriendlypasswordgenerator.tutorial.TutorialActivity
+org.secuso.privacyfriendlypasswordgenerator.tutorial.TutorialActivity -> org.secuso.privacyfriendlypasswordgenerator.activities.MainActivity
+org.secuso.privacyfriendlypasswordgenerator.activities.MainActivity -> org.secuso.privacyfriendlypasswordgenerator.tutorial.MasterPWTutorialActivity
+org.secuso.privacyfriendlypasswordgenerator.tutorial.MasterPWTutorialActivity -> org.secuso.privacyfriendlypasswordgenerator.activities.MainActivity
+org.secuso.privacyfriendlypasswordgenerator.activities.MainActivity -> org.secuso.privacyfriendlypasswordgenerator.activities.SettingsActivity
+org.secuso.privacyfriendlypasswordgenerator.activities.MainActivity -> org.secuso.privacyfriendlypasswordgenerator.tutorial.TutorialActivity
+org.secuso.privacyfriendlypasswordgenerator.activities.MainActivity -> org.secuso.privacyfriendlypasswordgenerator.activities.HelpActivity
+org.secuso.privacyfriendlypasswordgenerator.activities.MainActivity -> org.secuso.privacyfriendlypasswordgenerator.activities.AboutActivity
+org.secuso.privacyfriendlypasswordgenerator.activities.SettingsActivity -> org.secuso.privacyfriendlypasswordgenerator.tutorial.TutorialActivity
+org.secuso.privacyfriendlypasswordgenerator.activities.SettingsActivity -> org.secuso.privacyfriendlypasswordgenerator.activities.MainActivity
+org.secuso.privacyfriendlypasswordgenerator.activities.SettingsActivity -> org.secuso.privacyfriendlypasswordgenerator.activities.HelpActivity
+org.secuso.privacyfriendlypasswordgenerator.activities.SettingsActivity -> org.secuso.privacyfriendlypasswordgenerator.activities.AboutActivity
+org.secuso.privacyfriendlypasswordgenerator.activities.HelpActivity -> org.secuso.privacyfriendlypasswordgenerator.tutorial.TutorialActivity
+org.secuso.privacyfriendlypasswordgenerator.activities.HelpActivity -> org.secuso.privacyfriendlypasswordgenerator.activities.AboutActivity
+org.secuso.privacyfriendlypasswordgenerator.activities.HelpActivity -> org.secuso.privacyfriendlypasswordgenerator.activities.SettingsActivity
+org.secuso.privacyfriendlypasswordgenerator.activities.HelpActivity -> org.secuso.privacyfriendlypasswordgenerator.activities.MainActivity
+org.secuso.privacyfriendlypasswordgenerator.activities.AboutActivity -> org.secuso.privacyfriendlypasswordgenerator.activities.MainActivity
+org.secuso.privacyfriendlypasswordgenerator.activities.AboutActivity -> org.secuso.privacyfriendlypasswordgenerator.activities.SettingsActivity
+org.secuso.privacyfriendlypasswordgenerator.activities.AboutActivity -> org.secuso.privacyfriendlypasswordgenerator.tutorial.TutorialActivity
+org.secuso.privacyfriendlypasswordgenerator.activities.AboutActivity -> org.secuso.privacyfriendlypasswordgenerator.activities.HelpActivity
+APK: /Users/jiakun/Projects/TestingModelAnalysis/apks/fdroid/de.neuwirthinformatik.alexander.archerystats_6.apk
+All results
+Start -> de.neuwirthinformatik.alexander.archerystats.MainActivity
+de.neuwirthinformatik.alexander.archerystats.MainActivity -> de.neuwirthinformatik.alexander.archerystats.ViewEntriesActivity
+de.neuwirthinformatik.alexander.archerystats.ViewEntriesActivity -> de.neuwirthinformatik.alexander.archerystats.MainActivity
+de.neuwirthinformatik.alexander.archerystats.ViewPlotsActivity -> de.neuwirthinformatik.alexander.archerystats.MainActivity
+de.neuwirthinformatik.alexander.archerystats.MainActivity -> de.neuwirthinformatik.alexander.archerystats.ViewPlotsActivity
+APK: /Users/jiakun/Projects/TestingModelAnalysis/apks/fdroid/com.rechnen.app_20.apk
+All results
+Start -> com.rechnen.app.ui.userlist.SelectUserActivity
+com.rechnen.app.ui.userlist.SelectUserActivity -> com.rechnen.app.ui.training.TrainingMainActivity
+com.rechnen.app.ui.training.TrainingMainActivity -> com.rechnen.app.ui.userlist.SelectUserActivity
+com.rechnen.app.ui.AboutActivity -> com.rechnen.app.ui.userlist.SelectUserActivity
+com.rechnen.app.ui.userlist.SelectUserActivity -> com.rechnen.app.ui.AboutActivity
+com.rechnen.app.ui.userlist.SelectUserActivity -> com.rechnen.app.ui.user.ConfigureScaleFactorActivity
+com.rechnen.app.ui.user.ConfigureScaleFactorActivity -> com.rechnen.app.ui.userlist.SelectUserActivity
+APK: /Users/jiakun/Projects/TestingModelAnalysis/apks/fdroid/me.rosuh.easywatermark_20809.apk
+All results
+Start -> me.rosuh.easywatermark.ui.MainActivity
+me.rosuh.easywatermark.ui.MainActivity -> me.rosuh.easywatermark.ui.about.AboutActivity
+me.rosuh.easywatermark.ui.about.AboutActivity -> me.rosuh.easywatermark.ui.MainActivity
+me.rosuh.easywatermark.ui.about.AboutActivity -> me.rosuh.easywatermark.ui.about.OpenSourceActivity
+me.rosuh.easywatermark.ui.about.OpenSourceActivity -> me.rosuh.easywatermark.ui.about.AboutActivity
+APK: /Users/jiakun/Projects/TestingModelAnalysis/apks/fdroid/org.sensors2.pd_4.apk
+All results
+Start -> org.sensors2.pd.activities.Sensors2PdActivity
+org.sensors2.pd.activities.Sensors2PdActivity -> org.sensors2.pd.activities.GuideActivity
+org.sensors2.pd.activities.GuideActivity -> org.sensors2.pd.activities.Sensors2PdActivity
+org.sensors2.pd.activities.Sensors2PdActivity -> org.sensors2.pd.activities.SettingsActivity
+org.sensors2.pd.activities.SettingsActivity -> org.sensors2.pd.activities.Sensors2PdActivity
+org.sensors2.pd.activities.Sensors2PdActivity -> org.sensors2.pd.activities.AboutActivity
+org.sensors2.pd.activities.AboutActivity -> org.sensors2.pd.activities.Sensors2PdActivity
+APK: /Users/jiakun/Projects/TestingModelAnalysis/apks/fdroid/com.serwylo.babyphone_17.apk
+All results
+Start -> com.serwylo.babyphone.dialer.MainActivity
+com.serwylo.babyphone.dialer.MainActivity -> com.serwylo.babyphone.SettingsActivity
+com.serwylo.babyphone.SettingsActivity -> com.serwylo.babyphone.settingscontactlist.SettingsContactListActivity
+com.serwylo.babyphone.settingscontactlist.SettingsContactListActivity -> com.serwylo.babyphone.editcontact.EditContactActivity
+com.serwylo.babyphone.editcontact.EditContactActivity -> com.serwylo.babyphone.settingscontactlist.SettingsContactListActivity
+com.serwylo.babyphone.settingscontactlist.SettingsContactListActivity -> com.serwylo.babyphone.SettingsActivity
+com.serwylo.babyphone.SettingsActivity -> com.serwylo.babyphone.dialer.MainActivity
+APK: /Users/jiakun/Projects/TestingModelAnalysis/apks/fdroid/org.secuso.privacyfriendlynotes_18.apk
+All results
+Start -> org.secuso.privacyfriendlynotes.ui.TutorialActivity
+org.secuso.privacyfriendlynotes.ui.TutorialActivity -> org.secuso.privacyfriendlynotes.ui.main.MainActivity
+org.secuso.privacyfriendlynotes.ui.main.MainActivity -> org.secuso.privacyfriendlynotes.ui.TutorialActivity
+org.secuso.privacyfriendlynotes.ui.main.MainActivity -> org.secuso.privacyfriendlynotes.ui.notes.SketchActivity
+org.secuso.privacyfriendlynotes.ui.notes.SketchActivity -> org.secuso.privacyfriendlynotes.ui.main.MainActivity
+org.secuso.privacyfriendlynotes.ui.main.MainActivity -> org.secuso.privacyfriendlynotes.ui.notes.AudioNoteActivity
+org.secuso.privacyfriendlynotes.ui.notes.AudioNoteActivity -> org.secuso.privacyfriendlynotes.ui.main.MainActivity
+org.secuso.privacyfriendlynotes.ui.main.MainActivity -> org.secuso.privacyfriendlynotes.ui.notes.ChecklistNoteActivity
+org.secuso.privacyfriendlynotes.ui.notes.ChecklistNoteActivity -> org.secuso.privacyfriendlynotes.ui.main.MainActivity
+org.secuso.privacyfriendlynotes.ui.main.MainActivity -> org.secuso.privacyfriendlynotes.ui.notes.TextNoteActivity
+org.secuso.privacyfriendlynotes.ui.notes.TextNoteActivity -> org.secuso.privacyfriendlynotes.ui.main.MainActivity
+org.secuso.privacyfriendlynotes.ui.main.MainActivity -> org.secuso.privacyfriendlynotes.ui.RecycleActivity
+org.secuso.privacyfriendlynotes.ui.RecycleActivity -> org.secuso.privacyfriendlynotes.ui.main.MainActivity
+org.secuso.privacyfriendlynotes.ui.main.MainActivity -> org.secuso.privacyfriendlynotes.ui.manageCategories.ManageCategoriesActivity
+org.secuso.privacyfriendlynotes.ui.manageCategories.ManageCategoriesActivity -> org.secuso.privacyfriendlynotes.ui.main.MainActivity
+org.secuso.privacyfriendlynotes.ui.main.MainActivity -> org.secuso.privacyfriendlynotes.ui.SettingsActivity
+org.secuso.privacyfriendlynotes.ui.SettingsActivity -> org.secuso.privacyfriendlynotes.ui.main.MainActivity
+org.secuso.privacyfriendlynotes.ui.main.MainActivity -> org.secuso.privacyfriendlynotes.ui.HelpActivity
+org.secuso.privacyfriendlynotes.ui.HelpActivity -> org.secuso.privacyfriendlynotes.ui.main.MainActivity
+org.secuso.privacyfriendlynotes.ui.main.MainActivity -> org.secuso.privacyfriendlynotes.ui.AboutActivity
+org.secuso.privacyfriendlynotes.ui.AboutActivity -> org.secuso.privacyfriendlynotes.ui.main.MainActivity
+APK: /Users/jiakun/Projects/TestingModelAnalysis/apks/fdroid/com.alaskalinuxuser.justchess_13.apk
+All results
+Start -> com.alaskalinuxuser.justchess.IntroActivity
+com.alaskalinuxuser.justchess.IntroActivity -> com.alaskalinuxuser.justchess.aboutActivity
+com.alaskalinuxuser.justchess.aboutActivity -> com.alaskalinuxuser.justchess.IntroActivity
+com.alaskalinuxuser.justchess.IntroActivity -> com.alaskalinuxuser.justchess.MainActivity
+com.alaskalinuxuser.justchess.MainActivity -> com.alaskalinuxuser.justchess.IntroActivity
+com.alaskalinuxuser.justchess.IntroActivity -> com.alaskalinuxuser.justchess.SettingsActivity
+com.alaskalinuxuser.justchess.SettingsActivity -> com.alaskalinuxuser.justchess.IntroActivity
+APK: /Users/jiakun/Projects/TestingModelAnalysis/apks/androzoo/com.thomaskuenneth.android.birthday_2020100.0.apk
+All results
+Start -> com.thomaskuenneth.android.birthday.TKBirthdayReminder
+com.thomaskuenneth.android.birthday.LegalActivity -> com.thomaskuenneth.android.birthday.TKBirthdayReminder
+com.thomaskuenneth.android.birthday.PreferencesActivity -> com.thomaskuenneth.android.birthday.TKBirthdayReminder
+com.thomaskuenneth.android.birthday.TKBirthdayReminder -> com.thomaskuenneth.android.birthday.PreferencesActivity
+com.thomaskuenneth.android.birthday.TKBirthdayReminder -> com.thomaskuenneth.android.birthday.LegalActivity
+APK: /Users/jiakun/Projects/TestingModelAnalysis/apks/fdroid/com.danefinlay.ttsutil_8.apk
+All results
+Start -> com.danefinlay.ttsutil.ui.MainActivity
+com.danefinlay.ttsutil.ui.MainActivity -> com.danefinlay.ttsutil.ui.AboutActivity
+com.danefinlay.ttsutil.ui.AboutActivity -> com.danefinlay.ttsutil.ui.MainActivity
+APK: /Users/jiakun/Projects/TestingModelAnalysis/apks/androzoo/com.bellwoodgroup.marine.cockpitaid_21.0.apk
+All results
+Start -> com.bellwoodgroup.marine.cockpitaid.MainActivity
+com.bellwoodgroup.marine.cockpitaid.MainActivity -> com.bellwoodgroup.marine.cockpitaid.SettingsGpsActivity
+com.bellwoodgroup.marine.cockpitaid.SettingsGpsActivity -> com.bellwoodgroup.marine.cockpitaid.MainActivity
+com.bellwoodgroup.marine.cockpitaid.MainActivity -> com.bellwoodgroup.marine.cockpitaid.SettingsSensorActivity
+com.bellwoodgroup.marine.cockpitaid.SettingsSensorActivity -> com.bellwoodgroup.marine.cockpitaid.MainActivity
+APK: /Users/jiakun/Projects/TestingModelAnalysis/apks/fdroid/org.yuttadhammo.BodhiTimer_98.apk
+All results
+Start -> org.yuttadhammo.BodhiTimer.TimerActivity
+org.yuttadhammo.BodhiTimer.AdvNumberPicker -> org.yuttadhammo.BodhiTimer.TimerActivity
+org.yuttadhammo.BodhiTimer.SettingsActivity -> org.yuttadhammo.BodhiTimer.TimerActivity
+org.yuttadhammo.BodhiTimer.TimerActivity -> org.yuttadhammo.BodhiTimer.SettingsActivity
+org.yuttadhammo.BodhiTimer.TimerActivity -> org.yuttadhammo.BodhiTimer.AdvNumberPicker
+APK: /Users/jiakun/Projects/TestingModelAnalysis/apks/fdroid/com.simplemobiletools.launcher_10.apk
+All results
+Start -> com.simplemobiletools.launcher.activities.MainActivity
+com.simplemobiletools.launcher.activities.MainActivity -> com.simplemobiletools.launcher.activities.SettingsActivity
+com.simplemobiletools.launcher.activities.SettingsActivity -> com.simplemobiletools.launcher.activities.MainActivity
+com.simplemobiletools.launcher.activities.SettingsActivity -> com.simplemobiletools.commons.activities.CustomizationActivity
+com.simplemobiletools.commons.activities.CustomizationActivity -> com.simplemobiletools.launcher.activities.SettingsActivity
+com.simplemobiletools.launcher.activities.SettingsActivity -> com.simplemobiletools.launcher.activities.HiddenIconsActivity
+com.simplemobiletools.commons.activities.CustomizationActivity -> com.simplemobiletools.launcher.activities.SettingsActivity
+com.simplemobiletools.launcher.activities.SettingsActivity -> com.simplemobiletools.commons.activities.AboutActivity
+com.simplemobiletools.commons.activities.AboutActivity -> com.simplemobiletools.launcher.activities.SettingsActivity
+APK: /Users/jiakun/Projects/TestingModelAnalysis/apks/fdroid/de.sudoq_41.apk
+All results
+Start -> de.sudoq.controller.menus.SplashActivity
+de.sudoq.controller.menus.SplashActivity -> de.sudoq.controller.menus.MainActivity
+de.sudoq.controller.menus.MainActivity -> de.sudoq.controller.tutorial.TutorialActivity
+de.sudoq.controller.tutorial.TutorialActivity -> de.sudoq.controller.menus.MainActivity
+de.sudoq.controller.menus.MainActivity -> de.sudoq.controller.menus.NewSudokuActivity
+de.sudoq.controller.menus.NewSudokuActivity -> de.sudoq.controller.menus.MainActivity
+de.sudoq.controller.menus.NewSudokuActivity -> de.sudoq.controller.menus.preferences.NewSudokuPreferencesActivity
+de.sudoq.controller.menus.preferences.NewSudokuPreferencesActivity -> de.sudoq.controller.menus.NewSudokuActivity
+de.sudoq.controller.menus.preferences.AdvancedPreferencesActivity -> de.sudoq.controller.menus.preferences.RestrictTypesActivity
+de.sudoq.controller.menus.preferences.RestrictTypesActivity -> de.sudoq.controller.menus.preferences.AdvancedPreferencesActivity
+de.sudoq.controller.menus.preferences.AdvancedPreferencesActivity -> de.sudoq.controller.menus.preferences.NewSudokuPreferencesActivity
+de.sudoq.controller.menus.preferences.NewSudokuPreferencesActivity -> de.sudoq.controller.menus.preferences.AdvancedPreferencesActivity
+de.sudoq.controller.menus.preferences.NewSudokuPreferencesActivity -> de.sudoq.controller.menus.GestureBuilder
+de.sudoq.controller.menus.GestureBuilder -> de.sudoq.controller.menus.preferences.NewSudokuPreferencesActivity
+de.sudoq.controller.menus.NewSudokuActivity -> de.sudoq.controller.sudoku.SudokuActivity
+de.sudoq.controller.sudoku.SudokuActivity -> de.sudoq.controller.menus.NewSudokuActivity
+de.sudoq.controller.sudoku.SudokuActivity -> de.sudoq.controller.tutorial.TutorialActivity
+de.sudoq.controller.tutorial.TutorialActivity -> de.sudoq.controller.sudoku.SudokuActivity
+de.sudoq.controller.menus.MainActivity -> de.sudoq.controller.menus.SudokuLoadingActivity
+de.sudoq.controller.menus.SudokuLoadingActivity -> de.sudoq.controller.menus.MainActivity
+de.sudoq.controller.menus.SudokuLoadingActivity -> de.sudoq.controller.sudoku.SudokuActivity
+de.sudoq.controller.menus.MainActivity -> de.sudoq.controller.menus.preferences.PlayerPreferencesActivity
+de.sudoq.controller.menus.preferences.PlayerPreferencesActivity -> de.sudoq.controller.menus.MainActivity
+de.sudoq.controller.menus.preferences.PlayerPreferencesActivity -> de.sudoq.controller.menus.StatisticsActivity
+de.sudoq.controller.menus.StatisticsActivity -> de.sudoq.controller.menus.preferences.PlayerPreferencesActivity
+de.sudoq.controller.menus.preferences.PlayerPreferencesActivity -> de.sudoq.controller.menus.GestureBuilder
+de.sudoq.controller.menus.GestureBuilder -> de.sudoq.controller.menus.preferences.PlayerPreferencesActivity
+de.sudoq.controller.menus.preferences.PlayerPreferencesActivity -> de.sudoq.controller.menus.preferences.AdvancedPreferencesActivity
+de.sudoq.controller.menus.preferences.AdvancedPreferencesActivity -> de.sudoq.controller.menus.preferences.PlayerPreferencesActivity
+de.sudoq.controller.menus.preferences.RestrictTypesActivity -> de.sudoq.controller.tutorial.TutorialActivity
+de.sudoq.controller.menus.preferences.NewSudokuPreferencesActivity -> de.sudoq.controller.tutorial.TutorialActivity
+de.sudoq.controller.tutorial.TutorialActivity -> de.sudoq.controller.menus.NewSudokuActivity
+de.sudoq.controller.menus.SudokuLoadingActivity -> de.sudoq.controller.tutorial.TutorialActivity
+de.sudoq.controller.menus.preferences.NewSudokuPreferencesActivity -> de.sudoq.controller.menus.GestureBuilder
+de.sudoq.controller.tutorial.TutorialActivity -> de.sudoq.controller.menus.GestureBuilder
+de.sudoq.controller.tutorial.TutorialActivity -> de.sudoq.controller.menus.SudokuLoadingActivity
+de.sudoq.controller.menus.preferences.AdvancedPreferencesActivity -> de.sudoq.controller.tutorial.TutorialActivity
+de.sudoq.controller.tutorial.TutorialActivity -> de.sudoq.controller.menus.preferences.AdvancedPreferencesActivity
+de.sudoq.controller.tutorial.TutorialActivity -> de.sudoq.controller.menus.StatisticsActivity
+de.sudoq.controller.menus.StatisticsActivity -> de.sudoq.controller.tutorial.TutorialActivity
+de.sudoq.controller.tutorial.TutorialActivity -> de.sudoq.controller.menus.preferences.PlayerPreferencesActivity
+de.sudoq.controller.tutorial.TutorialActivity -> de.sudoq.controller.menus.preferences.RestrictTypesActivity
+de.sudoq.controller.menus.GestureBuilder -> de.sudoq.controller.tutorial.TutorialActivity
+APK: /Users/jiakun/Projects/TestingModelAnalysis/apks/fdroid/be.chvp.nanoledger_10600.apk
+All results
+Start -> be.chvp.nanoledger.ui.main.MainActivity
+be.chvp.nanoledger.ui.main.MainActivity -> be.chvp.nanoledger.ui.preferences.PreferencesActivity
+be.chvp.nanoledger.ui.preferences.PreferencesActivity -> be.chvp.nanoledger.ui.main.MainActivity
+be.chvp.nanoledger.ui.main.MainActivity -> be.chvp.nanoledger.ui.add.AddActivity
+be.chvp.nanoledger.ui.add.AddActivity -> be.chvp.nanoledger.ui.main.MainActivity
+APK: /Users/jiakun/Projects/TestingModelAnalysis/apks/fdroid/com.vincentengelsoftware.vesandroidimagecompare_41.apk
+All results
+Start -> com.vincentengelsoftware.androidimagecompare.Activities.MainActivity
+com.vincentengelsoftware.androidimagecompare.Activities.MainActivity -> com.vincentengelsoftware.androidimagecompare.Activities.Settings.ConfigActivity
+com.vincentengelsoftware.androidimagecompare.Activities.Settings.ConfigActivity -> com.vincentengelsoftware.androidimagecompare.Activities.MainActivity
+com.vincentengelsoftware.androidimagecompare.Activities.Settings.ConfigActivity -> com.vincentengelsoftware.androidimagecompare.Activities.Settings.SettingsActivity
+com.vincentengelsoftware.androidimagecompare.Activities.Settings.SettingsActivity -> com.vincentengelsoftware.androidimagecompare.Activities.Settings.ConfigActivity
+com.vincentengelsoftware.androidimagecompare.Activities.Settings.ConfigActivity -> com.vincentengelsoftware.androidimagecompare.Activities.Settings.AboutActivity
+com.vincentengelsoftware.androidimagecompare.Activities.Settings.AboutActivity -> com.vincentengelsoftware.androidimagecompare.Activities.Settings.ConfigActivity
+com.vincentengelsoftware.androidimagecompare.Activities.Settings.PrivacyPolicyActivity -> com.vincentengelsoftware.androidimagecompare.Activities.Settings.ConfigActivity
+com.vincentengelsoftware.androidimagecompare.Activities.Settings.ConfigActivity -> com.vincentengelsoftware.androidimagecompare.Activities.Settings.PrivacyPolicyActivity
+APK: /Users/jiakun/Projects/TestingModelAnalysis/apks/fdroid/us.spotco.ir_remote_1700.apk
+All results
+Start -> us.spotco.ir_remoteorg.twinone.irremote.ui.MainActivity
+org.twinone.irremote.ui.MainActivity -> org.twinone.irremote.providers.DefaultProviderActivity
+org.twinone.irremote.providers.DefaultProviderActivity -> org.twinone.irremote.ui.MainActivity
+org.twinone.irremote.ui.MainActivity -> org.twinone.irremote.ui.EditRemoteActivity
+org.twinone.irremote.ui.EditRemoteActivity -> org.twinone.irremote.providers.DefaultProviderActivity
+org.twinone.irremote.providers.DefaultProviderActivity -> org.twinone.irremote.ui.EditRemoteActivity
+org.twinone.irremote.ui.EditRemoteActivity -> org.twinone.irremote.ui.MainActivity
+org.twinone.irremote.ui.MainActivity -> org.twinone.irremote.ui.SettingsActivity
+org.twinone.irremote.ui.SettingsActivity -> org.twinone.irremote.ui.MainActivity
+APK: /Users/jiakun/Projects/TestingModelAnalysis/apks/fdroid/de.kromke.andreas.unpopmusicplayerfree_61.apk
+All results
+Start -> de.kromke.andreas.unpopmusicplayerfree.MainActivity
+de.kromke.andreas.unpopmusicplayerfree.MainActivity -> de.kromke.andreas.unpopmusicplayerfree.UserSettingsActivity
+de.kromke.andreas.unpopmusicplayerfree.UserSettingsActivity -> de.kromke.andreas.unpopmusicplayerfree.MainActivity
+APK: /Users/jiakun/Projects/TestingModelAnalysis/apks/fdroid/souch.smp_32.apk
+All results
+Start -> souch.smp.Main
+souch.smp.Main -> souch.smp.SettingsActivity
+souch.smp.SettingsActivity -> souch.smp.Main
+souch.smp.SettingsActivity -> souch.smp.ChangelogsActivity
+souch.smp.ChangelogsActivity -> souch.smp.SettingsActivity
+APK: /Users/jiakun/Projects/TestingModelAnalysis/apks/androzoo/com.simplesoftwarestudio.psaltyr_87.0.apk
+All results
+Start -> com.simplesoftwarestudio.psaltyr.MainActivity
+com.simplesoftwarestudio.psaltyr.MainActivity -> com.simplesoftwarestudio.psaltyr.AboutActivity
+com.simplesoftwarestudio.psaltyr.MainActivity -> com.simplesoftwarestudio.psaltyr.InfoActivity
+com.simplesoftwarestudio.psaltyr.InfoActivity -> com.simplesoftwarestudio.psaltyr.MainActivity
+com.simplesoftwarestudio.psaltyr.InfoActivity -> com.simplesoftwarestudio.psaltyr.AboutActivity
+com.simplesoftwarestudio.psaltyr.AboutActivity -> com.simplesoftwarestudio.psaltyr.InfoActivity
+com.simplesoftwarestudio.psaltyr.AboutActivity -> com.simplesoftwarestudio.psaltyr.MainActivity
+APK: /Users/jiakun/Projects/TestingModelAnalysis/apks/fdroid/de.wuapps.moredays_19.apk
+All results
+Start -> de.wuapps.moredays.ui.onboarding.Onboarding
+de.wuapps.moredays.ui.onboarding.Onboarding -> de.wuapps.moredays.MainActivity
+de.wuapps.moredays.MainActivity -> de.wuapps.moredays.ui.onboarding.Onboarding
+APK: /Users/jiakun/Projects/TestingModelAnalysis/apks/fdroid/com.simplemobiletools.flashlight_66.apk
+All results
+Start -> com.simplemobiletools.flashlight.activities.MainActivity
+com.simplemobiletools.flashlight.activities.MainActivity -> com.simplemobiletools.flashlight.activities.SettingsActivity
+com.simplemobiletools.flashlight.activities.SettingsActivity -> com.simplemobiletools.flashlight.activities.MainActivity
+com.simplemobiletools.flashlight.activities.SettingsActivity -> com.simplemobiletools.commons.activities.CustomizationActivity
+com.simplemobiletools.commons.activities.CustomizationActivity -> com.simplemobiletools.flashlight.activities.SettingsActivity
+com.simplemobiletools.flashlight.activities.SettingsActivity -> com.simplemobiletools.flashlight.activities.WidgetTorchConfigureActivity
+com.simplemobiletools.flashlight.activities.WidgetTorchConfigureActivity -> com.simplemobiletools.flashlight.activities.SettingsActivity
+com.simplemobiletools.commons.activities.AboutActivity -> com.simplemobiletools.flashlight.activities.MainActivity
+com.simplemobiletools.flashlight.activities.MainActivity -> com.simplemobiletools.commons.activities.AboutActivity
+com.simplemobiletools.commons.activities.AboutActivity -> com.simplemobiletools.commons.activities.FAQActivity
+com.simplemobiletools.commons.activities.FAQActivity -> com.simplemobiletools.commons.activities.AboutActivity
+com.simplemobiletools.commons.activities.AboutActivity -> com.simplemobiletools.commons.activities.ContributorsActivity
+com.simplemobiletools.commons.activities.ContributorsActivity -> com.simplemobiletools.commons.activities.AboutActivity
+com.simplemobiletools.commons.activities.AboutActivity -> com.simplemobiletools.commons.activities.LicenseActivity
+com.simplemobiletools.commons.activities.LicenseActivity -> com.simplemobiletools.commons.activities.AboutActivity
+com.simplemobiletools.flashlight.activities.MainActivity -> com.simplemobiletools.flashlight.activities.BrightDisplayActivity
+com.simplemobiletools.flashlight.activities.BrightDisplayActivity -> com.simplemobiletools.flashlight.activities.MainActivity
+APK: /Users/jiakun/Projects/TestingModelAnalysis/apks/fdroid/ch.blinkenlights.android.vanilla_13101.apk
+All results
+Start -> ch.blinkenlights.android.vanilla.LibraryActivity
+ch.blinkenlights.android.vanilla.LibraryActivity -> ch.blinkenlights.android.vanilla.FullPlaybackActivity
+ch.blinkenlights.android.vanilla.FullPlaybackActivity -> ch.blinkenlights.android.vanilla.LibraryActivity
+ch.blinkenlights.android.vanilla.FullPlaybackActivity -> ch.blinkenlights.android.vanilla.PreferencesActivity
+ch.blinkenlights.android.vanilla.PreferencesActivity -> ch.blinkenlights.android.vanilla.FullPlaybackActivity
+ch.blinkenlights.android.vanilla.LibraryActivity -> ch.blinkenlights.android.vanilla.PlaylistActivity
+ch.blinkenlights.android.vanilla.PlaylistActivity -> ch.blinkenlights.android.vanilla.LibraryActivity
+ch.blinkenlights.android.vanilla.PreferencesActivity -> ch.blinkenlights.android.vanilla.TabOrderActivity
+ch.blinkenlights.android.vanilla.TabOrderActivity -> ch.blinkenlights.android.vanilla.PreferencesActivity
+ch.blinkenlights.android.vanilla.PreferencesActivity -> ch.blinkenlights.android.vanilla.FilebrowserStartActivity
+ch.blinkenlights.android.vanilla.FilebrowserStartActivity -> ch.blinkenlights.android.vanilla.TabOrderActivity
+ch.blinkenlights.android.vanilla.PreferencesActivity -> ch.blinkenlights.android.vanilla.MediaFoldersSelectionActivity
+ch.blinkenlights.android.vanilla.MediaFoldersSelectionActivity -> ch.blinkenlights.android.vanilla.PreferencesActivity
+ch.blinkenlights.android.vanilla.PreferencesActivity -> ch.blinkenlights.android.vanilla.LibraryActivity
+ch.blinkenlights.android.vanilla.LibraryActivity -> ch.blinkenlights.android.vanilla.PreferencesActivity
+ch.blinkenlights.android.vanilla.PlaylistObserverDirActivity -> ch.blinkenlights.android.vanilla.PreferencesActivity
+ch.blinkenlights.android.vanilla.PreferencesActivity -> ch.blinkenlights.android.vanilla.PlaylistObserverDirActivity
+APK: /Users/jiakun/Projects/TestingModelAnalysis/apks/fdroid/de.kromke.andreas.musictagger_30.apk
+All results
+Start -> de.kromke.andreas.musictagger.MainActivity
+de.kromke.andreas.musictagger.MyPreferenceActivity -> de.kromke.andreas.musictagger.MainActivity
+de.kromke.andreas.musictagger.MainActivity -> de.kromke.andreas.musictagger.MyPreferenceActivity
+APK: /Users/jiakun/Projects/TestingModelAnalysis/apks/fdroid/org.billthefarmer.siggen_136.apk
+All results
+Start -> org.billthefarmer.siggen.Main
+org.billthefarmer.siggen.Main -> org.billthefarmer.siggen.HelpActivity
+org.billthefarmer.siggen.HelpActivity -> org.billthefarmer.siggen.Main
+org.billthefarmer.siggen.SettingsActivity -> org.billthefarmer.siggen.Main
+org.billthefarmer.siggen.Main -> org.billthefarmer.siggen.SettingsActivity
+APK: /Users/jiakun/Projects/TestingModelAnalysis/apks/fdroid/taco.scoop_34.apk
+All results
+Start -> taco.scoop.ui.activity.MainActivity
+taco.scoop.ui.activity.AboutActivity -> taco.scoop.ui.activity.SettingsActivity
+taco.scoop.ui.activity.MainActivity -> taco.scoop.ui.activity.SettingsActivity
+taco.scoop.ui.activity.SettingsActivity -> taco.scoop.ui.activity.MainActivity
+taco.scoop.ui.activity.SettingsActivity -> taco.scoop.ui.activity.BlacklistAppsActivity
+taco.scoop.ui.activity.BlacklistAppsActivity -> taco.scoop.ui.activity.SettingsActivity
+taco.scoop.ui.activity.SettingsActivity -> taco.scoop.ui.activity.AboutActivity
+APK: /Users/jiakun/Projects/TestingModelAnalysis/apks/fdroid/com.simplemobiletools.applauncher_53.apk
+All results
+Start -> com.simplemobiletools.applauncher.activities.MainActivity
+com.simplemobiletools.commons.activities.LicenseActivity -> com.simplemobiletools.commons.activities.AboutActivity
+com.simplemobiletools.applauncher.activities.MainActivity -> com.simplemobiletools.commons.activities.AboutActivity
+com.simplemobiletools.commons.activities.AboutActivity -> com.simplemobiletools.applauncher.activities.MainActivity
+com.simplemobiletools.applauncher.activities.MainActivity -> com.simplemobiletools.applauncher.activities.SettingsActivity
+com.simplemobiletools.applauncher.activities.SettingsActivity -> com.simplemobiletools.applauncher.activities.MainActivity
+com.simplemobiletools.applauncher.activities.SettingsActivity -> com.simplemobiletools.commons.activities.CustomizationActivity
+com.simplemobiletools.commons.activities.CustomizationActivity -> com.simplemobiletools.applauncher.activities.SettingsActivity
+com.simplemobiletools.commons.activities.AboutActivity -> com.simplemobiletools.commons.activities.ContributorsActivity
+com.simplemobiletools.commons.activities.ContributorsActivity -> com.simplemobiletools.commons.activities.AboutActivity
+com.simplemobiletools.commons.activities.AboutActivity -> com.simplemobiletools.commons.activities.FAQActivity
+com.simplemobiletools.commons.activities.FAQActivity -> com.simplemobiletools.commons.activities.AboutActivity
+com.simplemobiletools.commons.activities.AboutActivity -> com.simplemobiletools.commons.activities.LicenseActivity
+com.simplemobiletools.commons.activities.LicenseActivity -> com.simplemobiletools.commons.activities.AboutActivity
+APK: /Users/jiakun/Projects/TestingModelAnalysis/apks/fdroid/com.simplemobiletools.dialer_57.apk
+All results
+Start -> com.simplemobiletools.dialer.activities.MainActivity
+com.simplemobiletools.dialer.activities.MainActivity -> com.simplemobiletools.commons.activities.AboutActivity
+com.simplemobiletools.commons.activities.AboutActivity -> com.simplemobiletools.dialer.activities.MainActivity
+com.simplemobiletools.dialer.activities.MainActivity -> com.simplemobiletools.dialer.activities.SettingsActivity
+com.simplemobiletools.dialer.activities.SettingsActivity -> com.simplemobiletools.dialer.activities.MainActivity
+com.simplemobiletools.dialer.activities.SettingsActivity -> com.simplemobiletools.commons.activities.CustomizationActivity
+com.simplemobiletools.commons.activities.CustomizationActivity -> com.simplemobiletools.dialer.activities.SettingsActivity
+com.simplemobiletools.dialer.activities.SettingsActivity -> com.simplemobiletools.commons.activities.ManageBlockedNumbersActivity
+com.simplemobiletools.commons.activities.ManageBlockedNumbersActivity -> com.simplemobiletools.dialer.activities.SettingsActivity
+com.simplemobiletools.dialer.activities.ManageSpeedDialActivity -> com.simplemobiletools.dialer.activities.SettingsActivity
+com.simplemobiletools.dialer.activities.SettingsActivity -> com.simplemobiletools.dialer.activities.ManageSpeedDialActivity
+com.simplemobiletools.commons.activities.AboutActivity -> com.simplemobiletools.commons.activities.FAQActivity
+com.simplemobiletools.commons.activities.FAQActivity -> com.simplemobiletools.commons.activities.AboutActivity
+com.simplemobiletools.commons.activities.AboutActivity -> com.simplemobiletools.commons.activities.ContributorsActivity
+com.simplemobiletools.commons.activities.ContributorsActivity -> com.simplemobiletools.commons.activities.AboutActivity
+com.simplemobiletools.commons.activities.AboutActivity -> com.simplemobiletools.commons.activities.LicenseActivity
+com.simplemobiletools.commons.activities.LicenseActivity -> com.simplemobiletools.commons.activities.AboutActivity
+com.simplemobiletools.dialer.activities.MainActivity -> com.simplemobiletools.dialer.activities.DialpadActivity
+com.simplemobiletools.dialer.activities.DialpadActivity -> com.simplemobiletools.dialer.activities.MainActivity
+com.simplemobiletools.dialer.activities.DialpadActivity -> com.simplemobiletools.dialer.activities.CallActivity
+com.simplemobiletools.dialer.activities.CallActivity -> com.simplemobiletools.dialer.activities.DialpadActivity
+com.simplemobiletools.dialer.activities.CallActivity -> com.simplemobiletools.dialer.activities.ConferenceActivity
+com.simplemobiletools.dialer.activities.ConferenceActivity -> com.simplemobiletools.dialer.activities.CallActivity
+APK: /Users/jiakun/Projects/TestingModelAnalysis/apks/fdroid/org.woheller69.audiometry_190.apk
+All results
+Start -> org.woheller69.audiometry.MainActivity
+org.woheller69.audiometry.MainActivity -> org.woheller69.audiometry.Pre_Calibration
+org.woheller69.audiometry.Pre_Calibration -> org.woheller69.audiometry.MainActivity
+org.woheller69.audiometry.Pre_Calibration -> org.woheller69.audiometry.PerformTest
+org.woheller69.audiometry.PerformTest -> org.woheller69.audiometry.MainActivity
+org.woheller69.audiometry.MainActivity -> org.woheller69.audiometry.Info
+org.woheller69.audiometry.Info -> org.woheller69.audiometry.MainActivity
+APK: /Users/jiakun/Projects/TestingModelAnalysis/apks/fdroid/rocks.poopjournal.todont_10.apk
+All results
+Start -> rocks.poopjournal.todont.Splash_Screen
+rocks.poopjournal.todont.Splash_Screen -> rocks.poopjournal.todont.OnBoardingActivity
+rocks.poopjournal.todont.OnBoardingActivity -> rocks.poopjournal.todont.MainActivity
+rocks.poopjournal.todont.MainActivity -> rocks.poopjournal.todont.OnBoardingActivity
+rocks.poopjournal.todont.MainActivity -> rocks.poopjournal.todont.Labels
+rocks.poopjournal.todont.Labels -> rocks.poopjournal.todont.MainActivity
+rocks.poopjournal.todont.Settings -> rocks.poopjournal.todont.About
+rocks.poopjournal.todont.About -> rocks.poopjournal.todont.Settings
+rocks.poopjournal.todont.Settings -> rocks.poopjournal.todont.MainActivity
+rocks.poopjournal.todont.MainActivity -> rocks.poopjournal.todont.Settings
+APK: /Users/jiakun/Projects/TestingModelAnalysis/apks/fdroid/com.apps.adrcotfas.goodtime_155.apk
+All results
+Start -> com.apps.adrcotfas.goodtime.main.MainIntroActivity
+com.apps.adrcotfas.goodtime.main.MainIntroActivity -> com.apps.adrcotfas.goodtime.main.TimerActivity
+com.apps.adrcotfas.goodtime.about.AboutActivity -> com.apps.adrcotfas.goodtime.main.MainIntroActivity
+com.apps.adrcotfas.goodtime.main.TimerActivity -> com.apps.adrcotfas.goodtime.about.AboutActivity
+com.apps.adrcotfas.goodtime.about.AboutActivity -> com.apps.adrcotfas.goodtime.main.TimerActivity
+com.apps.adrcotfas.goodtime.main.TimerActivity -> com.apps.adrcotfas.goodtime.settings.SettingsActivity
+com.apps.adrcotfas.goodtime.settings.SettingsActivity -> com.apps.adrcotfas.goodtime.main.TimerActivity
+com.apps.adrcotfas.goodtime.main.TimerActivity -> com.apps.adrcotfas.goodtime.statistics.main.StatisticsActivity
+com.apps.adrcotfas.goodtime.statistics.main.StatisticsActivity -> com.apps.adrcotfas.goodtime.main.TimerActivity
+com.apps.adrcotfas.goodtime.statistics.main.StatisticsActivity -> com.apps.adrcotfas.goodtime.labels.AddEditLabelActivity
+com.apps.adrcotfas.goodtime.labels.AddEditLabelActivity -> com.apps.adrcotfas.goodtime.statistics.main.StatisticsActivity
+com.apps.adrcotfas.goodtime.main.TimerActivity -> com.apps.adrcotfas.goodtime.labels.AddEditLabelActivity
+com.apps.adrcotfas.goodtime.labels.AddEditLabelActivity -> com.apps.adrcotfas.goodtime.main.TimerActivity
+APK: /Users/jiakun/Projects/TestingModelAnalysis/apks/fdroid/dev.lucanlm.antimine_1706031.apk
+All results
+Start -> dev.lucasnlm.antimine.main.MainActivity
+dev.lucasnlm.antimine.main.MainActivity -> dev.lucasnlm.antimine.GameActivity
+dev.lucasnlm.antimine.GameActivity -> dev.lucasnlm.antimine.main.MainActivity
+dev.lucasnlm.antimine.GameActivity -> dev.lucasnlm.antimine.tutorial.TutorialActivity
+dev.lucasnlm.antimine.tutorial.TutorialActivity -> dev.lucasnlm.antimine.GameActivity
+dev.lucasnlm.antimine.GameActivity -> dev.lucasnlm.antimine.preferences.PreferencesActivity
+dev.lucasnlm.antimine.preferences.PreferencesActivity -> dev.lucasnlm.antimine.GameActivity
+dev.lucasnlm.antimine.main.MainActivity -> dev.lucasnlm.antimine.themes.ThemeActivity
+dev.lucasnlm.antimine.themes.ThemeActivity -> dev.lucasnlm.antimine.main.MainActivity
+dev.lucasnlm.antimine.control.ControlActivity -> dev.lucasnlm.antimine.main.MainActivity
+dev.lucasnlm.antimine.main.MainActivity -> dev.lucasnlm.antimine.control.ControlActivity
+dev.lucasnlm.antimine.preferences.PreferencesActivity -> dev.lucasnlm.antimine.main.MainActivity
+dev.lucasnlm.antimine.main.MainActivity -> dev.lucasnlm.antimine.preferences.PreferencesActivity
+dev.lucasnlm.antimine.main.MainActivity -> dev.lucasnlm.antimine.stats.StatsActivity
+dev.lucasnlm.antimine.stats.StatsActivity -> dev.lucasnlm.antimine.main.MainActivity
+dev.lucasnlm.antimine.history.HistoryActivity -> dev.lucasnlm.antimine.main.MainActivity
+dev.lucasnlm.antimine.main.MainActivity -> dev.lucasnlm.antimine.history.HistoryActivity
+dev.lucasnlm.antimine.history.HistoryActivity -> dev.lucasnlm.antimine.GameActivity
+dev.lucasnlm.antimine.GameActivity -> dev.lucasnlm.antimine.history.HistoryActivity
+dev.lucasnlm.antimine.main.MainActivity -> dev.lucasnlm.antimine.donation.DonationActivity
+dev.lucasnlm.antimine.donation.DonationActivity -> dev.lucasnlm.antimine.main.MainActivity
+dev.lucasnlm.antimine.main.MainActivity -> dev.lucasnlm.antimine.tutorial.TutorialActivity
+dev.lucasnlm.antimine.tutorial.TutorialActivity -> dev.lucasnlm.antimine.main.MainActivity
+dev.lucasnlm.antimine.main.MainActivity -> dev.lucasnlm.antimine.l10n.LocalizationActivity
+dev.lucasnlm.antimine.l10n.LocalizationActivity -> dev.lucasnlm.antimine.main.MainActivity
+dev.lucasnlm.antimine.main.MainActivity -> dev.lucasnlm.antimine.about.AboutActivity
+dev.lucasnlm.antimine.about.AboutActivity -> dev.lucasnlm.antimine.main.MainActivity
+dev.lucasnlm.antimine.about.AboutActivity -> dev.lucasnlm.antimine.licenses.LicenseActivity
+dev.lucasnlm.antimine.licenses.LicenseActivity -> dev.lucasnlm.antimine.about.AboutActivity
+dev.lucasnlm.antimine.GameActivity -> dev.lucasnlm.antimine.donation.DonationActivity
+dev.lucasnlm.antimine.donation.DonationActivity -> dev.lucasnlm.antimine.GameActivity
+APK: /Users/jiakun/Projects/TestingModelAnalysis/apks/fdroid/com.simplemobiletools.contacts.pro_107.apk
+All results
+Start -> com.simplemobiletools.contacts.pro.activities.MainActivity
+com.simplemobiletools.contacts.pro.activities.MainActivity -> com.simplemobiletools.contacts.pro.activities.SettingsActivity
+com.simplemobiletools.contacts.pro.activities.SettingsActivity -> com.simplemobiletools.contacts.pro.activities.MainActivity
+com.simplemobiletools.contacts.pro.activities.MainActivity -> com.simplemobiletools.commons.activities.AboutActivity
+com.simplemobiletools.commons.activities.AboutActivity -> com.simplemobiletools.contacts.pro.activities.MainActivity
+com.simplemobiletools.commons.activities.AboutActivity -> com.simplemobiletools.commons.activities.ContributorsActivity
+com.simplemobiletools.commons.activities.AboutActivity -> com.simplemobiletools.commons.activities.FAQActivity
+com.simplemobiletools.commons.activities.AboutActivity -> com.simplemobiletools.commons.activities.LicenseActivity
+com.simplemobiletools.commons.activities.FAQActivity -> com.simplemobiletools.commons.activities.AboutActivity
+com.simplemobiletools.commons.activities.ContributorsActivity -> com.simplemobiletools.commons.activities.AboutActivity
+com.simplemobiletools.commons.activities.LicenseActivity -> com.simplemobiletools.commons.activities.AboutActivity
+com.simplemobiletools.contacts.pro.activities.SettingsActivity -> com.simplemobiletools.commons.activities.CustomizationActivity
+com.simplemobiletools.commons.activities.CustomizationActivity -> com.simplemobiletools.contacts.pro.activities.SettingsActivity
+com.simplemobiletools.contacts.pro.activities.MainActivity -> com.simplemobiletools.contacts.pro.activities.GroupContactsActivity
+com.simplemobiletools.contacts.pro.activities.GroupContactsActivity -> com.simplemobiletools.contacts.pro.activities.MainActivity
+com.simplemobiletools.contacts.pro.activities.MainActivity -> com.simplemobiletools.contacts.pro.activities.ViewContactActivity
+com.simplemobiletools.contacts.pro.activities.ViewContactActivity -> com.simplemobiletools.contacts.pro.activities.MainActivity
+com.simplemobiletools.contacts.pro.activities.ViewContactActivity -> com.simplemobiletools.contacts.pro.activities.EditContactActivity
+com.simplemobiletools.contacts.pro.activities.EditContactActivity -> com.simplemobiletools.contacts.pro.activities.ViewContactActivity
+com.simplemobiletools.contacts.pro.activities.MainActivity -> com.simplemobiletools.contacts.pro.activities.EditContactActivity
+com.simplemobiletools.contacts.pro.activities.EditContactActivity -> com.simplemobiletools.contacts.pro.activities.MainActivity
+com.simplemobiletools.contacts.pro.activities.GroupContactsActivity -> com.simplemobiletools.contacts.pro.activities.ViewContactActivity
+com.simplemobiletools.contacts.pro.activities.ViewContactActivity -> com.simplemobiletools.contacts.pro.activities.GroupContactsActivity
+APK: /Users/jiakun/Projects/TestingModelAnalysis/apks/fdroid/com.jarsilio.android.autoautorotate_35.apk
+All results
+Start -> com.jarsilio.android.autoautorotate.appintro.AppIntro
+com.jarsilio.android.autoautorotate.appintro.AppIntro -> com.jarsilio.android.autoautorotate.MainActivity
+com.jarsilio.android.autoautorotate.MainActivity -> com.jarsilio.android.common.impressum.ImpressumActivity
+com.jarsilio.android.common.impressum.ImpressumActivity -> com.jarsilio.android.autoautorotate.MainActivity
+com.jarsilio.android.autoautorotate.MainActivity -> com.jarsilio.android.common.privacypolicy.PrivacyPolicyActivity
+com.jarsilio.android.common.privacypolicy.PrivacyPolicyActivity -> com.jarsilio.android.autoautorotate.MainActivity
+com.jarsilio.android.autoautorotate.MainActivity -> com.mikepenz.aboutlibraries.ui.LibsActivity
+com.mikepenz.aboutlibraries.ui.LibsActivity -> com.jarsilio.android.autoautorotate.MainActivity
+APK: /Users/jiakun/Projects/TestingModelAnalysis/apks/fdroid/org.billthefarmer.scope_138.apk
+All results
+Start -> org.billthefarmer.scope.Main
+org.billthefarmer.scope.Main -> org.billthefarmer.scope.HelpActivity
+org.billthefarmer.scope.HelpActivity -> org.billthefarmer.scope.Main
+org.billthefarmer.scope.Main -> org.billthefarmer.scope.SettingsActivity
+org.billthefarmer.scope.SettingsActivity -> org.billthefarmer.scope.Main
+org.billthefarmer.scope.Main -> org.billthefarmer.scope.SpectrumActivity
+org.billthefarmer.scope.SpectrumActivity -> org.billthefarmer.scope.Main
+org.billthefarmer.scope.SpectrumActivity -> org.billthefarmer.scope.HelpActivity
+org.billthefarmer.scope.HelpActivity -> org.billthefarmer.scope.SpectrumActivity
+org.billthefarmer.scope.SpectrumActivity -> org.billthefarmer.scope.SettingsActivity
+org.billthefarmer.scope.SettingsActivity -> org.billthefarmer.scope.SpectrumActivity
+APK: /Users/jiakun/Projects/TestingModelAnalysis/apks/fdroid/com.simplemobiletools.notes.pro_114.apk
+All results
+Start -> com.simplemobiletools.notes.pro.activities.MainActivity
+com.simplemobiletools.notes.pro.activities.MainActivity -> com.simplemobiletools.commons.activities.AboutActivity
+com.simplemobiletools.commons.activities.AboutActivity -> com.simplemobiletools.notes.pro.activities.MainActivity
+com.simplemobiletools.notes.pro.activities.MainActivity -> com.simplemobiletools.notes.pro.activities.SettingsActivity
+com.simplemobiletools.notes.pro.activities.SettingsActivity -> com.simplemobiletools.notes.pro.activities.MainActivity
+com.simplemobiletools.notes.pro.activities.SettingsActivity -> com.simplemobiletools.commons.activities.CustomizationActivity
+com.simplemobiletools.commons.activities.CustomizationActivity -> com.simplemobiletools.notes.pro.activities.SettingsActivity
+com.simplemobiletools.notes.pro.activities.WidgetConfigureActivity -> com.simplemobiletools.notes.pro.activities.SettingsActivity
+com.simplemobiletools.notes.pro.activities.SettingsActivity -> com.simplemobiletools.notes.pro.activities.WidgetConfigureActivity
+com.simplemobiletools.commons.activities.AboutActivity -> com.simplemobiletools.commons.activities.FAQActivity
+com.simplemobiletools.commons.activities.AboutActivity -> com.simplemobiletools.commons.activities.ContributorsActivity
+com.simplemobiletools.commons.activities.AboutActivity -> com.simplemobiletools.commons.activities.LicenseActivity
+com.simplemobiletools.commons.activities.LicenseActivity -> com.simplemobiletools.commons.activities.AboutActivity
+com.simplemobiletools.commons.activities.ContributorsActivity -> com.simplemobiletools.commons.activities.AboutActivity
+com.simplemobiletools.commons.activities.FAQActivity -> com.simplemobiletools.commons.activities.AboutActivity
+APK: /Users/jiakun/Projects/TestingModelAnalysis/apks/fdroid/io.github.gsantner.memetastic_73.apk
+All results
+Start -> net.gsantner.memetastic.activity.MainActivity
+net.gsantner.memetastic.activity.MainActivity -> net.gsantner.memetastic.activity.MemeCreateActivity
+net.gsantner.memetastic.activity.MainActivity -> net.gsantner.memetastic.activity.SettingsActivity
+net.gsantner.memetastic.activity.MemeCreateActivity -> net.gsantner.memetastic.activity.MainActivity
+net.gsantner.memetastic.activity.SettingsActivity -> net.gsantner.memetastic.activity.MainActivity
+net.gsantner.memetastic.activity.ImageViewActivity -> net.gsantner.memetastic.activity.MainActivity
+net.gsantner.memetastic.activity.MainActivity -> net.gsantner.memetastic.activity.ImageViewActivity
+APK: /Users/jiakun/Projects/TestingModelAnalysis/apks/fdroid/com.android.keepass_215.apk
+All results
+Start -> com.keepassdroid.fileselect.FileSelectActivity
+com.keepassdroid.fileselect.FileSelectActivity -> com.keepassdroid.GroupActivityV4
+com.keepassdroid.GroupActivityV4 -> com.keepassdroid.fileselect.FileSelectActivity
+com.keepassdroid.fileselect.FileSelectActivity -> com.keepassdroid.PasswordActivity
+com.keepassdroid.PasswordActivity -> com.keepassdroid.settings.AppSettingsActivity
+com.keepassdroid.settings.AppSettingsActivity -> com.keepassdroid.PasswordActivity
+com.keepassdroid.fileselect.FileSelectActivity -> com.keepassdroid.settings.AppSettingsActivity
+com.keepassdroid.settings.AppSettingsActivity -> com.keepassdroid.fileselect.FileSelectActivity
+com.keepassdroid.GroupActivityV4 -> com.keepassdroid.EntryEditActivityV4
+com.keepassdroid.EntryEditActivityV4 -> com.keepassdroid.GroupActivityV4
+com.keepassdroid.GroupActivityV4 -> com.keepassdroid.EntryActivityV4
+com.keepassdroid.EntryActivityV4 -> com.keepassdroid.GroupActivityV4
+com.keepassdroid.EntryActivityV4 -> com.keepassdroid.EntryEditActivityV4
+com.keepassdroid.EntryEditActivityV4 -> com.keepassdroid.EntryActivityV4
+com.keepassdroid.GroupActivityV4 -> com.keepassdroid.GroupEditActivity
+com.keepassdroid.GroupEditActivity -> com.keepassdroid.GroupActivityV4
+com.keepassdroid.GroupEditActivity -> com.keepassdroid.IconPickerActivity
+com.keepassdroid.IconPickerActivity -> com.keepassdroid.GroupEditActivity
+com.keepassdroid.PasswordActivity -> com.keepassdroid.fileselect.FileSelectActivity
+com.keepassdroid.GroupActivityV4 -> com.keepassdroid.search.SearchResults
+com.keepassdroid.search.SearchResults -> com.keepassdroid.GroupActivityV4
+APK: /Users/jiakun/Projects/TestingModelAnalysis/apks/fdroid/com.winston69.simpill_20.apk
+All results
+Start -> com.winston69.simpillcom.example.simpill.MainActivity
+com.example.simpill.MainActivity -> com.example.simpill.CreatePill
+com.example.simpill.CreatePill -> com.example.simpill.MainActivity
+com.example.simpill.MainActivity -> com.example.simpill.About
+com.example.simpill.About -> com.example.simpill.MainActivity
+com.example.simpill.MainActivity -> com.example.simpill.Settings
+com.example.simpill.Settings -> com.example.simpill.MainActivity
+APK: /Users/jiakun/Projects/TestingModelAnalysis/apks/fdroid/net.foucry.pilldroid_302.apk
+All results
+Start -> net.foucry.pilldroid.WelcomeActivity
+net.foucry.pilldroid.WelcomeActivity -> net.foucry.pilldroid.DrugListActivity
+net.foucry.pilldroid.DrugListActivity -> net.foucry.pilldroid.WelcomeActivity
+net.foucry.pilldroid.DrugListActivity -> net.foucry.pilldroid.About
+net.foucry.pilldroid.About -> net.foucry.pilldroid.DrugListActivity
+net.foucry.pilldroid.DrugListActivity -> net.foucry.pilldroid.CustomScannerActivity
+net.foucry.pilldroid.CustomScannerActivity -> net.foucry.pilldroid.DrugListActivity
+APK: /Users/jiakun/Projects/TestingModelAnalysis/apks/fdroid/org.woheller69.eggtimer_28.apk
+All results
+Start -> org.woheller69.eggtimer.MainActivity
+org.woheller69.eggtimer.MainActivity -> org.woheller69.eggtimer.Tutorial
+org.woheller69.eggtimer.Tutorial -> org.woheller69.eggtimer.MainActivity
+org.woheller69.eggtimer.MainActivity -> org.woheller69.eggtimer.SettingsActivity
+org.woheller69.eggtimer.SettingsActivity -> org.woheller69.eggtimer.MainActivity
+APK: /Users/jiakun/Projects/TestingModelAnalysis/apks/fdroid/com.caydey.ffshare_17.apk
+All results
+Start -> com.caydey.ffshare.MainActivity
+com.caydey.ffshare.MainActivity -> com.caydey.ffshare.LogsActivity
+com.caydey.ffshare.LogsActivity -> com.caydey.ffshare.MainActivity
+com.caydey.ffshare.MainActivity -> com.caydey.ffshare.PreferencesActivity
+com.caydey.ffshare.PreferencesActivity -> com.caydey.ffshare.MainActivity
+APK: /Users/jiakun/Projects/TestingModelAnalysis/apks/fdroid/rocks.poopjournal.flashy_7.apk
+All results
+Start -> rocks.poopjournal.flashy.activities.MainActivity
+rocks.poopjournal.flashy.activities.MainActivity -> rocks.poopjournal.flashy.activities.SettingsActivity
+rocks.poopjournal.flashy.activities.SettingsActivity -> rocks.poopjournal.flashy.activities.MainActivity
+rocks.poopjournal.flashy.activities.MainActivity -> rocks.poopjournal.flashy.activities.AboutActivity
+rocks.poopjournal.flashy.activities.AboutActivity -> rocks.poopjournal.flashy.activities.MainActivity
+APK: /Users/jiakun/Projects/TestingModelAnalysis/apks/fdroid/de.chagemann.regexcrossword_33.apk
+All results
+Start -> de.chagemann.regexcrossword.features.selectcategory.SelectCategoryActivity
+de.chagemann.regexcrossword.features.selectcategory.SelectCategoryActivity -> de.chagemann.regexcrossword.features.game.GameActivity
+de.chagemann.regexcrossword.features.game.GameActivity -> de.chagemann.regexcrossword.features.selectcategory.SelectCategoryActivity
+de.chagemann.regexcrossword.features.selectlevel.SelectLevelActivity -> de.chagemann.regexcrossword.features.game.GameActivity
+de.chagemann.regexcrossword.features.game.GameActivity -> de.chagemann.regexcrossword.features.selectlevel.SelectLevelActivity
+de.chagemann.regexcrossword.features.selectlevel.SelectLevelActivity -> de.chagemann.regexcrossword.features.selectcategory.SelectCategoryActivity
+de.chagemann.regexcrossword.features.selectcategory.SelectCategoryActivity -> de.chagemann.regexcrossword.features.selectlevel.SelectLevelActivity
+APK: /Users/jiakun/Projects/TestingModelAnalysis/apks/fdroid/org.secuso.privacyfriendlysudoku_14.apk
+All results
+Start -> org.secuso.privacyfriendlysudoku.ui.TutorialActivity
+org.secuso.privacyfriendlysudoku.ui.TutorialActivity -> org.secuso.privacyfriendlysudoku.ui.MainActivity
+org.secuso.privacyfriendlysudoku.ui.MainActivity -> org.secuso.privacyfriendlysudoku.ui.DailySudokuActivity
+org.secuso.privacyfriendlysudoku.ui.DailySudokuActivity -> org.secuso.privacyfriendlysudoku.ui.GameActivity
+org.secuso.privacyfriendlysudoku.ui.GameActivity -> org.secuso.privacyfriendlysudoku.ui.MainActivity
+org.secuso.privacyfriendlysudoku.ui.GameActivity -> org.secuso.privacyfriendlysudoku.ui.StatsActivity
+org.secuso.privacyfriendlysudoku.ui.StatsActivity -> org.secuso.privacyfriendlysudoku.ui.GameActivity
+org.secuso.privacyfriendlysudoku.ui.GameActivity -> org.secuso.privacyfriendlysudoku.ui.SettingsActivity
+org.secuso.privacyfriendlysudoku.ui.SettingsActivity -> org.secuso.privacyfriendlysudoku.ui.GameActivity
+org.secuso.privacyfriendlysudoku.ui.GameActivity -> org.secuso.privacyfriendlysudoku.ui.HelpActivity
+org.secuso.privacyfriendlysudoku.ui.HelpActivity -> org.secuso.privacyfriendlysudoku.ui.GameActivity
+org.secuso.privacyfriendlysudoku.ui.GameActivity -> org.secuso.privacyfriendlysudoku.ui.AboutActivity
+org.secuso.privacyfriendlysudoku.ui.AboutActivity -> org.secuso.privacyfriendlysudoku.ui.GameActivity
+org.secuso.privacyfriendlysudoku.ui.MainActivity -> org.secuso.privacyfriendlysudoku.ui.SettingsActivity
+org.secuso.privacyfriendlysudoku.ui.MainActivity -> org.secuso.privacyfriendlysudoku.ui.HelpActivity
+org.secuso.privacyfriendlysudoku.ui.MainActivity -> org.secuso.privacyfriendlysudoku.ui.AboutActivity
+org.secuso.privacyfriendlysudoku.ui.AboutActivity -> org.secuso.privacyfriendlysudoku.ui.MainActivity
+org.secuso.privacyfriendlysudoku.ui.HelpActivity -> org.secuso.privacyfriendlysudoku.ui.MainActivity
+org.secuso.privacyfriendlysudoku.ui.SettingsActivity -> org.secuso.privacyfriendlysudoku.ui.MainActivity
+org.secuso.privacyfriendlysudoku.ui.MainActivity -> org.secuso.privacyfriendlysudoku.ui.TutorialActivity
+org.secuso.privacyfriendlysudoku.ui.MainActivity -> org.secuso.privacyfriendlysudoku.ui.StatsActivity
+org.secuso.privacyfriendlysudoku.ui.StatsActivity -> org.secuso.privacyfriendlysudoku.ui.MainActivity
+org.secuso.privacyfriendlysudoku.ui.DailySudokuActivity -> org.secuso.privacyfriendlysudoku.ui.MainActivity
+org.secuso.privacyfriendlysudoku.ui.MainActivity -> org.secuso.privacyfriendlysudoku.ui.GameActivity
+org.secuso.privacyfriendlysudoku.ui.MainActivity -> org.secuso.privacyfriendlysudoku.ui.CreateSudokuActivity
+org.secuso.privacyfriendlysudoku.ui.CreateSudokuActivity -> org.secuso.privacyfriendlysudoku.ui.MainActivity
+org.secuso.privacyfriendlysudoku.ui.MainActivity -> org.secuso.privacyfriendlysudoku.ui.LoadGameActivity
+org.secuso.privacyfriendlysudoku.ui.LoadGameActivity -> org.secuso.privacyfriendlysudoku.ui.MainActivity
+org.secuso.privacyfriendlysudoku.ui.LoadGameActivity -> org.secuso.privacyfriendlysudoku.ui.GameActivity
+org.secuso.privacyfriendlysudoku.ui.GameActivity -> org.secuso.privacyfriendlysudoku.ui.LoadGameActivity
+APK: /Users/jiakun/Projects/TestingModelAnalysis/apks/fdroid/com.serwylo.lexica_30015.apk
+All results
+Start -> com.serwylo.lexica.MainMenuActivity
+com.serwylo.lexica.MainMenuActivity -> com.serwylo.lexica.ChooseLexiconActivity
+com.serwylo.lexica.ChooseLexiconActivity -> com.serwylo.lexica.MainMenuActivity
+com.serwylo.lexica.MainMenuActivity -> com.serwylo.lexica.ChooseGameModeActivity
+com.serwylo.lexica.ChooseGameModeActivity -> com.serwylo.lexica.MainMenuActivity
+com.serwylo.lexica.ChooseGameModeActivity -> com.serwylo.lexica.NewGameModeActivity
+com.serwylo.lexica.NewGameModeActivity -> com.serwylo.lexica.ChooseGameModeActivity
+com.serwylo.lexica.MainMenuActivity -> com.serwylo.lexica.activities.NewMultiplayerActivity
+com.serwylo.lexica.activities.NewMultiplayerActivity -> com.serwylo.lexica.MainMenuActivity
+com.serwylo.lexica.activities.NewMultiplayerActivity -> com.serwylo.lexica.GameActivity
+com.serwylo.lexica.MainMenuActivity -> com.serwylo.lexica.SettingsActivity
+com.serwylo.lexica.MainMenuActivity -> com.serwylo.lexica.activities.HighScoresActivity
+com.serwylo.lexica.activities.HighScoresActivity -> com.serwylo.lexica.MainMenuActivity
+com.serwylo.lexica.GameActivity -> com.serwylo.lexica.activities.score.ScoreActivity
+com.serwylo.lexica.activities.score.ScoreActivity -> com.serwylo.lexica.GameActivity
+com.serwylo.lexica.activities.FoundWordsActivity -> com.serwylo.lexica.activities.HighScoresActivity
+com.serwylo.lexica.activities.HighScoresActivity -> com.serwylo.lexica.activities.FoundWordsActivity
+APK: /Users/jiakun/Projects/TestingModelAnalysis/apks/fdroid/com.better.alarm_31504.apk
+All results
+Start -> com.better.alarm.presenter.AlarmsListActivity
+com.better.alarm.presenter.AlarmsListActivity -> com.better.alarm.presenter.SettingsActivity
+com.better.alarm.presenter.SettingsActivity -> com.better.alarm.presenter.AlarmsListActivity
+APK: /Users/jiakun/Projects/TestingModelAnalysis/apks/fdroid/org.tessoft.qonvert_12.apk
+All results
+Start -> org.tessoft.qonvert.MainActivity
+org.tessoft.qonvert.MainActivity -> org.tessoft.qonvert.HelpActivity
+org.tessoft.qonvert.HelpActivity -> org.tessoft.qonvert.MainActivity
+org.tessoft.qonvert.MainActivity -> org.tessoft.qonvert.SettingsActivity
+org.tessoft.qonvert.SettingsActivity -> org.tessoft.qonvert.MainActivity
+org.tessoft.qonvert.MainActivity -> org.tessoft.qonvert.ListActivity
+org.tessoft.qonvert.ListActivity -> org.tessoft.qonvert.MainActivity
+org.tessoft.qonvert.ListActivity -> org.tessoft.qonvert.SettingsActivity
+org.tessoft.qonvert.SettingsActivity -> org.tessoft.qonvert.ListActivity
+APK: /Users/jiakun/Projects/TestingModelAnalysis/apks/fdroid/com.simplemobiletools.draw.pro_82.apk
+All results
+Start -> com.simplemobiletools.draw.pro.activities.MainActivity
+com.simplemobiletools.draw.pro.activities.MainActivity -> com.simplemobiletools.draw.pro.activities.SettingsActivity
+com.simplemobiletools.draw.pro.activities.SettingsActivity -> com.simplemobiletools.draw.pro.activities.MainActivity
+com.simplemobiletools.draw.pro.activities.SettingsActivity -> com.simplemobiletools.commons.activities.CustomizationActivity
+com.simplemobiletools.commons.activities.CustomizationActivity -> com.simplemobiletools.draw.pro.activities.SettingsActivity
+com.simplemobiletools.draw.pro.activities.MainActivity -> com.simplemobiletools.commons.activities.AboutActivity
+com.simplemobiletools.commons.activities.AboutActivity -> com.simplemobiletools.draw.pro.activities.MainActivity
+com.simplemobiletools.commons.activities.AboutActivity -> com.simplemobiletools.commons.activities.ContributorsActivity
+com.simplemobiletools.commons.activities.AboutActivity -> com.simplemobiletools.commons.activities.LicenseActivity
+com.simplemobiletools.commons.activities.LicenseActivity -> com.simplemobiletools.commons.activities.AboutActivity
+com.simplemobiletools.commons.activities.ContributorsActivity -> com.simplemobiletools.commons.activities.AboutActivity
+APK: /Users/jiakun/Projects/TestingModelAnalysis/apks/fdroid/com.tserumula.dbcleanerforwhatsapp_9.apk
+All results
+Start -> com.tserumula.dbcleanerforwhatsapp.MainActivity
+com.tserumula.dbcleanerforwhatsapp.MainActivity -> com.tserumula.dbcleanerforwhatsapp.RunHistory
+com.tserumula.dbcleanerforwhatsapp.RunHistory -> com.tserumula.dbcleanerforwhatsapp.MainActivity
+com.tserumula.dbcleanerforwhatsapp.MainActivity -> com.tserumula.dbcleanerforwhatsapp.SettingsActivity
+com.tserumula.dbcleanerforwhatsapp.SettingsActivity -> com.tserumula.dbcleanerforwhatsapp.MainActivity
+com.tserumula.dbcleanerforwhatsapp.SettingsActivity -> com.tserumula.dbcleanerforwhatsapp.WebpageActivity
+com.tserumula.dbcleanerforwhatsapp.WebpageActivity -> com.tserumula.dbcleanerforwhatsapp.SettingsActivity
+APK: /Users/jiakun/Projects/TestingModelAnalysis/apks/fdroid/dev.corruptedark.diditakemymeds_35.apk
+All results
+Start -> dev.corruptedark.diditakemymeds.MainActivity
+dev.corruptedark.diditakemymeds.MainActivity -> dev.corruptedark.diditakemymeds.AboutActivity
+dev.corruptedark.diditakemymeds.AboutActivity -> dev.corruptedark.diditakemymeds.AddMedActivity
+dev.corruptedark.diditakemymeds.MainActivity -> dev.corruptedark.diditakemymeds.AddMedActivity
+dev.corruptedark.diditakemymeds.AddMedActivity -> dev.corruptedark.diditakemymeds.MainActivity
+dev.corruptedark.diditakemymeds.AboutActivity -> dev.corruptedark.diditakemymeds.MainActivity
+dev.corruptedark.diditakemymeds.MainActivity -> dev.corruptedark.diditakemymeds.MedDetailActivity
+dev.corruptedark.diditakemymeds.MedDetailActivity -> dev.corruptedark.diditakemymeds.MainActivity
+dev.corruptedark.diditakemymeds.MedDetailActivity -> dev.corruptedark.diditakemymeds.EditMedActivity
+dev.corruptedark.diditakemymeds.EditMedActivity -> dev.corruptedark.diditakemymeds.MedDetailActivity
+dev.corruptedark.diditakemymeds.MedDetailActivity -> dev.corruptedark.diditakemymeds.DoseDetailActivity
+dev.corruptedark.diditakemymeds.DoseDetailActivity -> dev.corruptedark.diditakemymeds.MedDetailActivity
+Start -> dev.corruptedark.diditakemymeds.SimpleSingleMedWidgetConfigureActivity
+APK: /Users/jiakun/Projects/TestingModelAnalysis/apks/fdroid/com.oF2pks.chairlock_18.apk
+All results
+Start -> com.oF2pks.chairlock.LaunchActivity
+com.oF2pks.chairlock.LaunchActivity -> com.oF2pks.applicationsinfo.DetailActivity
+com.oF2pks.applicationsinfo.DetailActivity -> com.oF2pks.chairlock.LaunchActivity
+com.oF2pks.applicationsinfo.DetailActivity -> com.oF2pks.applicationsinfo.ViewManifestActivity
+com.oF2pks.applicationsinfo.ViewManifestActivity -> com.oF2pks.applicationsinfo.DetailActivity
+com.oF2pks.chairlock.LaunchActivity -> com.oF2pks.applicationsinfo.MainActivity
+com.oF2pks.applicationsinfo.MainActivity -> com.oF2pks.chairlock.LaunchActivity
+com.oF2pks.applicationsinfo.MainActivity -> com.oF2pks.applicationsinfo.DetailActivity
+com.oF2pks.applicationsinfo.DetailActivity -> com.oF2pks.applicationsinfo.MainActivity
+com.oF2pks.applicationsinfo.ViewManifestActivity -> com.oF2pks.applicationsinfo.MainActivity
+com.oF2pks.applicationsinfo.MainActivity -> com.oF2pks.applicationsinfo.ViewManifestActivity
+Start -> com.oF2pks.chairlockcom.oF2pks.applicationsinfo.MainActivity
+com.oF2pks.applicationsinfo.MainActivity -> com.oF2pks.applicationsinfo.View2ManifestActivity
+com.oF2pks.applicationsinfo.DetailActivity -> com.oF2pks.applicationsinfo.View2ManifestActivity
+com.oF2pks.applicationsinfo.View2ManifestActivity -> com.oF2pks.applicationsinfo.DetailActivity
+com.oF2pks.applicationsinfo.View2ManifestActivity -> com.oF2pks.applicationsinfo.MainActivity
+APK: /Users/jiakun/Projects/TestingModelAnalysis/apks/fdroid/com.simplemobiletools.keyboard_24.apk
+All results
+Start -> com.simplemobiletools.keyboard.activities.MainActivity
+com.simplemobiletools.keyboard.activities.MainActivity -> com.simplemobiletools.keyboard.activities.SettingsActivity
+com.simplemobiletools.keyboard.activities.SettingsActivity -> com.simplemobiletools.keyboard.activities.MainActivity
+com.simplemobiletools.keyboard.activities.MainActivity -> com.simplemobiletools.commons.activities.AboutActivity
+com.simplemobiletools.commons.activities.AboutActivity -> com.simplemobiletools.keyboard.activities.MainActivity
+com.simplemobiletools.commons.activities.AboutActivity -> com.simplemobiletools.commons.activities.ContributorsActivity
+com.simplemobiletools.commons.activities.ContributorsActivity -> com.simplemobiletools.commons.activities.AboutActivity
+com.simplemobiletools.commons.activities.AboutActivity -> com.simplemobiletools.commons.activities.LicenseActivity
+com.simplemobiletools.commons.activities.LicenseActivity -> com.simplemobiletools.commons.activities.AboutActivity
+com.simplemobiletools.keyboard.activities.SettingsActivity -> com.simplemobiletools.commons.activities.CustomizationActivity
+com.simplemobiletools.commons.activities.CustomizationActivity -> com.simplemobiletools.keyboard.activities.SettingsActivity
+com.simplemobiletools.keyboard.activities.SettingsActivity -> com.simplemobiletools.keyboard.activities.ManageClipboardItemsActivity
+com.simplemobiletools.keyboard.activities.ManageClipboardItemsActivity -> com.simplemobiletools.keyboard.activities.SettingsActivity
+APK: apks/hackerone_apps/com.starbucks.mobilecard_35307.0.apk
+All results
+Start -> com.starbucks.mobilecard/.main.activity.LandingPageActivity
+com.starbucks.mobilecard.main.activity.LandingPageActivity -> o.bKQ
+APK: apks/hackerone_apps/com.vimeo.android.videoapp_3696677.0.apk
+All results
+Start -> com.vimeo.android.videoapp/.welcome.WelcomeActivity
+com.vimeo.android.videoapp.welcome.WelcomeActivity -> com.vimeo.android.videoapp.MainActivity
+com.vimeo.android.videoapp.MainActivity -> com.vimeo.android.videoapp.upgrade.AccountUpgradeActivity
+com.vimeo.android.videoapp.upgrade.AccountUpgradeActivity -> com.vimeo.android.videoapp.MainActivity
+com.vimeo.android.videoapp.MainActivity -> com.vimeo.android.videoapp.profile.UserProfileActivity
+com.vimeo.android.videoapp.profile.UserProfileActivity -> com.vimeo.android.videoapp.MainActivity
+com.vimeo.android.videoapp.MainActivity -> com.vimeo.capture.ui.screens.main.VimeoLiveActivity
+com.vimeo.capture.ui.screens.main.VimeoLiveActivity -> com.vimeo.android.videoapp.MainActivity
+com.vimeo.android.videoapp.MainActivity -> com.vimeo.android.videoapp.folders.create.FolderCreateEditTitleActivity
+com.vimeo.android.videoapp.folders.create.FolderCreateEditTitleActivity -> com.vimeo.android.videoapp.MainActivity
+com.vimeo.android.videoapp.MainActivity -> com.vimeo.android.videoapp.folders.create.FolderSettingsActivity
+com.vimeo.android.videoapp.folders.create.FolderSettingsActivity -> com.vimeo.android.videoapp.MainActivity
+com.vimeo.android.videoapp.MainActivity -> com.vimeo.android.videoapp.albums.AlbumEditActivity
+com.vimeo.android.videoapp.albums.AlbumEditActivity -> com.vimeo.android.videoapp.MainActivity
+com.vimeo.android.videoapp.MainActivity -> com.vimeo.android.videoapp.video.VideoActivity
+com.vimeo.android.videoapp.video.VideoActivity -> com.vimeo.android.videoapp.MainActivity
+com.vimeo.android.videoapp.video.VideoActivity -> com.vimeo.android.videoapp.profile.UserProfileActivity
+com.vimeo.android.videoapp.profile.UserProfileActivity -> com.vimeo.android.videoapp.video.VideoActivity
+APK: apks/hackerone_apps/com.livestream.livestream_88.0.apk
+All results
+Start -> com.livestream2.android.activity.ContainerActivity
+com.livestream2.android.activity.ContainerActivity -> com.livestream2.android.activity.discovery.PhoneDiscoveryActivity
+com.livestream2.android.activity.discovery.PhoneDiscoveryActivity -> com.facebook.FacebookActivity
+com.facebook.FacebookActivity -> com.livestream2.android.activity.discovery.PhoneDiscoveryActivity
+APK: apks/hackerone_apps/org.wordpress.android_1440.apk
+All results
+Start -> org.wordpress.android.ui.accounts.LoginActivity
+org.wordpress.android.ui.accounts.LoginActivity -> org.wordpress.android.ui.accounts.LoginEpilogueActivity
+org.wordpress.android.ui.accounts.LoginEpilogueActivity -> org.wordpress.android.ui.main.WPMainActivity
+org.wordpress.android.ui.main.WPMainActivity -> org.wordpress.android.ui.mediapicker.MediaPickerActivity
+org.wordpress.android.ui.mediapicker.MediaPickerActivity -> org.wordpress.android.ui.main.WPMainActivity
+org.wordpress.android.ui.main.WPMainActivity -> org.wordpress.android.ui.main.ChooseSiteActivity
+org.wordpress.android.ui.main.ChooseSiteActivity -> org.wordpress.android.ui.main.WPMainActivity
+org.wordpress.android.ui.main.ChooseSiteActivity -> org.wordpress.android.ui.sitecreation.SiteCreationActivity
+org.wordpress.android.ui.sitecreation.SiteCreationActivity -> org.wordpress.android.ui.main.ChooseSiteActivity
+org.wordpress.android.ui.main.ChooseSiteActivity -> org.wordpress.android.ui.accounts.LoginActivity
+org.wordpress.android.ui.accounts.LoginActivity -> org.wordpress.android.ui.accounts.HelpActivity
+org.wordpress.android.ui.accounts.HelpActivity -> org.wordpress.android.ui.AppLogViewerActivity
+org.wordpress.android.ui.AppLogViewerActivity -> org.wordpress.android.ui.accounts.HelpActivity
+org.wordpress.android.ui.accounts.HelpActivity -> org.wordpress.android.ui.accounts.LoginActivity
+org.wordpress.android.ui.accounts.LoginActivity -> org.wordpress.android.ui.main.ChooseSiteActivity
+org.wordpress.android.ui.main.WPMainActivity -> org.wordpress.android.ui.posts.PostsListActivity
+org.wordpress.android.ui.posts.PostsListActivity -> org.wordpress.android.ui.main.WPMainActivity
+org.wordpress.android.ui.posts.PostsListActivity -> org.wordpress.android.ui.posts.EditPostActivity
+org.wordpress.android.ui.posts.EditPostActivity -> org.wordpress.android.ui.posts.PostsListActivity
+org.wordpress.android.ui.posts.EditPostActivity -> org.wordpress.android.ui.WPWebViewActivity
+org.wordpress.android.ui.WPWebViewActivity -> org.wordpress.android.ui.posts.EditPostActivity
+org.wordpress.android.ui.main.WPMainActivity -> org.wordpress.android.ui.pages.PagesActivity
+org.wordpress.android.ui.pages.PagesActivity -> org.wordpress.android.ui.main.WPMainActivity
+org.wordpress.android.ui.pages.PagesActivity -> org.wordpress.android.ui.posts.EditPostActivity
+org.wordpress.android.ui.posts.EditPostActivity -> org.wordpress.android.ui.pages.PagesActivity
+org.wordpress.android.ui.main.WPMainActivity -> org.wordpress.android.ui.media.MediaBrowserActivity
+org.wordpress.android.ui.media.MediaBrowserActivity -> org.wordpress.android.ui.main.WPMainActivity
+org.wordpress.android.ui.media.MediaBrowserActivity -> org.wordpress.android.ui.mediapicker.MediaPickerActivity
+org.wordpress.android.ui.mediapicker.MediaPickerActivity -> org.wordpress.android.ui.media.MediaBrowserActivity
+org.wordpress.android.ui.main.WPMainActivity -> org.wordpress.android.ui.comments.unified.UnifiedCommentsActivity
+org.wordpress.android.ui.comments.unified.UnifiedCommentsActivity -> org.wordpress.android.ui.main.WPMainActivity
+org.wordpress.android.ui.main.WPMainActivity -> org.wordpress.android.ui.main.MeActivity
+org.wordpress.android.ui.main.MeActivity -> org.wordpress.android.ui.main.WPMainActivity
+org.wordpress.android.ui.main.MeActivity -> org.wordpress.android.ui.prefs.MyProfileActivity
+org.wordpress.android.ui.prefs.MyProfileActivity -> org.wordpress.android.ui.main.MeActivity
+org.wordpress.android.ui.main.MeActivity -> org.wordpress.android.ui.mediapicker.MediaPickerActivity
+org.wordpress.android.ui.mediapicker.MediaPickerActivity -> org.wordpress.android.ui.main.MeActivity
+org.wordpress.android.ui.main.MeActivity -> org.wordpress.android.ui.prefs.AccountSettingsActivity
+org.wordpress.android.ui.prefs.AccountSettingsActivity -> org.wordpress.android.ui.main.MeActivity
+org.wordpress.android.ui.main.MeActivity -> org.wordpress.android.ui.prefs.AppSettingsActivity
+org.wordpress.android.ui.prefs.AppSettingsActivity -> org.wordpress.android.ui.main.MeActivity
+org.wordpress.android.ui.prefs.AppSettingsActivity -> .ui.prefs.AppSettingsActivity
+.ui.prefs.AppSettingsActivity -> org.wordpress.android.ui.prefs.AppSettingsActivity
+org.wordpress.android.ui.main.MeActivity -> org.wordpress.android.ui.accounts.HelpActivity
+org.wordpress.android.ui.accounts.HelpActivity -> org.wordpress.android.ui.main.MeActivity
+org.wordpress.android.ui.main.MeActivity -> org.wordpress.android.ui.about.UnifiedAboutActivity
+org.wordpress.android.ui.about.UnifiedAboutActivity -> org.wordpress.android.ui.main.MeActivity
+org.wordpress.android.ui.main.WPMainActivity -> org.wordpress.android.ui.prefs.BlogPreferencesActivity
+org.wordpress.android.ui.prefs.BlogPreferencesActivity -> org.wordpress.android.ui.main.WPMainActivity
+org.wordpress.android.ui.prefs.BlogPreferencesActivity -> org.wordpress.android.ui.prefs.categories.list.CategoriesListActivity
+org.wordpress.android.ui.prefs.categories.list.CategoriesListActivity -> org.wordpress.android.ui.prefs.BlogPreferencesActivity
+org.wordpress.android.ui.prefs.categories.list.CategoriesListActivity -> org.wordpress.android.ui.prefs.categories.detail.CategoryDetailActivity
+org.wordpress.android.ui.prefs.categories.detail.CategoryDetailActivity -> org.wordpress.android.ui.prefs.categories.list.CategoriesListActivity
+org.wordpress.android.ui.prefs.BlogPreferencesActivity -> org.wordpress.android.ui.prefs.SiteSettingsTagListActivity
+org.wordpress.android.ui.prefs.SiteSettingsTagListActivity -> org.wordpress.android.ui.prefs.BlogPreferencesActivity
+APK: apks/hackerone_apps/com.bitstrips.imoji_1180009833.0.apk
+All results
+Start -> com.bitstrips.imoji.ui.LoginActivity
+com.bitstrips.imoji.ui.LoginActivity -> com.bitstrips.authv2.ui.activity.LoginV2Activity
+com.bitstrips.authv2.ui.activity.LoginV2Activity -> com.bitstrips.imoji.browser.ImojiBrowserActivity
+com.bitstrips.imoji.browser.ImojiBrowserActivity -> com.bitstrips.connectedapps.ui.activity.ConnectedAppsActivity
+com.bitstrips.connectedapps.ui.activity.ConnectedAppsActivity -> com.bitstrips.imoji.browser.ImojiBrowserActivity
+com.bitstrips.imoji.browser.ImojiBrowserActivity -> com.bitstrips.imoji.ui.activities.LinkBSAccountToSnapchatActivity
+com.bitstrips.imoji.ui.activities.LinkBSAccountToSnapchatActivity -> com.bitstrips.imoji.browser.ImojiBrowserActivity
+com.bitstrips.imoji.browser.ImojiBrowserActivity -> com.bitstrips.imoji.ui.ImojiWebViewActivity
+com.bitstrips.imoji.ui.ImojiWebViewActivity -> com.bitstrips.imoji.browser.ImojiBrowserActivity
+com.bitstrips.imoji.browser.ImojiBrowserActivity -> com.bitstrips.imoji.abv3.AvatarBuilderActivityV3
+com.bitstrips.imoji.abv3.AvatarBuilderActivityV3 -> com.bitstrips.imoji.browser.ImojiBrowserActivity
+APK: apks/hackerone_apps/com.schlageabode.lock_7.0.apk
+All results
+Start -> com.alfred.home.ui.auth.SignInActivity
+com.alfred.home.ui.auth.SignInActivity -> com.alfred.home.ui.homepage.MainActivity
+com.alfred.home.ui.homepage.MainActivity -> com.alfred.home.ui.add.AddDeviceActivity
+com.alfred.home.ui.add.AddDeviceActivity -> com.alfred.home.ui.homepage.MainActivity
+com.alfred.home.ui.add.AddDeviceActivity -> com.alfred.home.ui.add.lock.AddLockActivity
+com.alfred.home.ui.add.lock.AddLockActivity -> com.alfred.home.ui.add.AddDeviceActivity
+com.alfred.home.ui.add.AddDeviceActivity -> com.alfred.home.ui.add.gateway.AddGatewayActivity
+com.alfred.home.ui.add.gateway.AddGatewayActivity -> com.alfred.home.ui.add.AddDeviceActivity
+com.alfred.home.ui.homepage.MainActivity -> com.alfred.home.ui.family.MemberCreateActivity
+com.alfred.home.ui.family.MemberCreateActivity -> com.alfred.home.ui.homepage.MainActivity
+com.alfred.home.ui.family.MemberCreateActivity -> com.alfred.home.ui.family.MemberAssignKeysActivity
+com.alfred.home.ui.family.MemberAssignKeysActivity -> com.alfred.home.ui.homepage.MainActivity
+com.alfred.home.ui.homepage.MainActivity -> com.alfred.home.ui.family.MemberProfileActivity
+com.alfred.home.ui.family.MemberProfileActivity -> com.alfred.home.ui.homepage.MainActivity
+com.alfred.home.ui.family.MemberProfileActivity -> com.alfred.home.ui.family.MemberProfileEditActivity
+com.alfred.home.ui.family.MemberProfileEditActivity -> com.alfred.home.ui.family.MemberProfileActivity
+com.alfred.home.ui.homepage.MainActivity -> com.alfred.home.ui.inbox.EventMessageActivity
+com.alfred.home.ui.inbox.EventMessageActivity -> com.alfred.home.ui.homepage.MainActivity
+com.alfred.home.ui.homepage.MainActivity -> com.alfred.home.ui.auth.RenameAccountActivity
+com.alfred.home.ui.auth.RenameAccountActivity -> com.alfred.home.ui.homepage.MainActivity
+com.alfred.home.ui.homepage.MainActivity -> com.alfred.home.ui.security.SecuritySettingsActivity
+com.alfred.home.ui.security.SecuritySettingsActivity -> com.alfred.home.ui.homepage.MainActivity
+com.alfred.home.ui.security.SecuritySettingsActivity -> com.alfred.home.ui.auth.ChangePasswordActivity
+com.alfred.home.ui.auth.ChangePasswordActivity -> com.alfred.home.ui.security.SecuritySettingsActivity
+com.alfred.home.ui.auth.ChangePasswordActivity -> com.alfred.home.ui.auth.ResetAccountActivity
+com.alfred.home.ui.auth.ResetAccountActivity -> com.alfred.home.ui.auth.ChangePasswordActivity
+com.alfred.home.ui.patternlock.PatternLockSettingActivity -> com.alfred.home.ui.security.SecuritySettingsActivity
+com.alfred.home.ui.security.SecuritySettingsActivity -> com.alfred.home.ui.patternlock.PatternLockSettingActivity
+com.alfred.home.ui.patternlock.PatternLockActivity -> com.alfred.home.ui.security.SecuritySettingsActivity
+com.alfred.home.ui.security.SecuritySettingsActivity -> com.alfred.home.ui.patternlock.PatternLockActivity
+com.alfred.home.ui.me.AboutActivity -> com.alfred.home.ui.homepage.MainActivity
+com.alfred.home.ui.homepage.MainActivity -> com.alfred.home.ui.me.AboutActivity
+com.alfred.home.ui.me.AboutActivity -> com.alfred.home.ui.WebViewActivity
+com.alfred.home.ui.WebViewActivity -> com.alfred.home.ui.me.AboutActivity
+APK: apks/hackerone_apps/com.citrix.CitrixVPN_136.0.apk
+All results
+Start -> com.citrix.citrixvpn.MainActivity
+com.citrix.citrixvpn.MainActivity -> com.citrix.citrixvpn.AddConnectionActivity
+com.citrix.citrixvpn.AddConnectionActivity -> com.citrix.citrixvpn.AddConnectionActivity
+com.citrix.citrixvpn.MainActivity -> com.citrix.citrixvpn.EditConnectionsActivity
+com.citrix.citrixvpn.EditConnectionsActivity -> com.citrix.citrixvpn.EditConnectionsActivity
+com.citrix.citrixvpn.EditConnectionsActivity -> com.citrix.citrixvpn.totp.AddTotp
+com.citrix.citrixvpn.totp.AddTotp -> com.citrix.citrixvpn.EditConnectionsActivity
+com.citrix.citrixvpn.MainActivity -> com.citrix.citrixvpn.StatisticsActivity
+com.citrix.citrixvpn.StatisticsActivity -> com.citrix.citrixvpn.MainActivity
+com.citrix.citrixvpn.MainActivity -> com.citrix.citrixvpn.SettingsActivity
+com.citrix.citrixvpn.SettingsActivity -> com.citrix.citrixvpn.MainActivity
+com.citrix.citrixvpn.LogActivity -> com.citrix.citrixvpn.MainActivity
+com.citrix.citrixvpn.MainActivity -> com.citrix.citrixvpn.LogActivity
+com.citrix.citrixvpn.HelpActivity -> com.citrix.citrixvpn.MainActivity
+com.citrix.citrixvpn.MainActivity -> com.citrix.citrixvpn.HelpActivity
+com.citrix.citrixvpn.HelpActivity -> com.citrix.citrixvpn.HelpIndexActivity
+com.citrix.citrixvpn.HelpIndexActivity -> com.citrix.citrixvpn.HelpActivity
+com.citrix.citrixvpn.AboutActivity -> com.citrix.citrixvpn.MainActivity
+com.citrix.citrixvpn.MainActivity -> com.citrix.citrixvpn.AboutActivity
+com.citrix.citrixvpn.AddConnectionActivity -> com.citrix.citrixvpn.MainActivity
+com.citrix.citrixvpn.SplashScreen -> com.citrix.citrixvpn.MainActivity
+APK: apks/hackerone_apps/com.linkbubble.playstore_24800.0.apk
+All results
+Start -> com.linkbubble.ui.HomeActivity
+com.linkbubble.ui.HomeActivity -> com.linkbubble.ui.SettingsActivity
+com.linkbubble.ui.SettingsActivity -> com.linkbubble.ui.SettingsDomainsActivity
+com.linkbubble.ui.SettingsDomainsActivity -> com.linkbubble.ui.SettingsActivity
+com.linkbubble.ui.SettingsActivity -> com.linkbubble.ui.SettingsMoreActivity
+com.linkbubble.ui.SettingsMoreActivity -> com.linkbubble.ui.SettingsActivity
+com.linkbubble.ui.SettingsActivity -> com.linkbubble.ui.ExpandedActivity
+com.linkbubble.ui.ExpandedActivity -> com.linkbubble.ui.SettingsActivity
+com.linkbubble.ui.SettingsActivity -> com.linkbubble.ui.SettingsHelpActivity
+com.linkbubble.ui.SettingsHelpActivity -> com.linkbubble.ui.SettingsActivity
+com.linkbubble.ui.HomeActivity -> com.linkbubble.ui.HistoryActivity
+com.linkbubble.ui.HistoryActivity -> com.linkbubble.ui.HomeActivity
+APK: apks/hackerone_apps/com.kayak.android_10610.0.apk
+All results
+Start -> com.kayak.android.splash.SplashPopupsActivity
+com.kayak.android.splash.SplashPopupsActivity -> com.kayak.android.login.LoginSignupActivity
+com.kayak.android.login.LoginSignupActivity -> com.kayak.android.navigation.MainActivity
+com.kayak.android.navigation.MainActivity -> com.kayak.android.login.LoginSignupActivity
+com.kayak.android.login.LoginSignupActivity -> com.kayak.android.navigation.MainActivity
+com.kayak.android.navigation.MainActivity -> com.kayak.android.streamingsearch.results.list.flight.FlightSearchResultsActivity
+com.kayak.android.streamingsearch.results.list.flight.FlightSearchResultsActivity -> com.kayak.android.navigation.MainActivity
+com.kayak.android.streamingsearch.results.list.flight.FlightSearchResultsActivity -> com.kayak.android.preferences.currency.ui.CurrenciesActivity
+com.kayak.android.preferences.currency.ui.CurrenciesActivity -> com.kayak.android.streamingsearch.results.list.flight.FlightSearchResultsActivity
+com.kayak.android.streamingsearch.results.list.flight.FlightSearchResultsActivity -> com.kayak.android.streamingsearch.results.details.flight.StreamingFlightResultDetailsActivity
+com.kayak.android.streamingsearch.results.details.flight.StreamingFlightResultDetailsActivity -> com.kayak.android.streamingsearch.results.list.flight.FlightSearchResultsActivity
+com.kayak.android.streamingsearch.results.details.flight.StreamingFlightResultDetailsActivity -> com.kayak.android.streamingsearch.results.list.hotel.StaySearchResultsActivity
+com.kayak.android.streamingsearch.results.list.hotel.StaySearchResultsActivity -> com.kayak.android.streamingsearch.results.details.flight.StreamingFlightResultDetailsActivity
+com.kayak.android.streamingsearch.results.list.hotel.StaySearchResultsActivity -> com.kayak.android.streamingsearch.results.details.hotel.HotelResultDetailsActivity
+com.kayak.android.streamingsearch.results.details.hotel.HotelResultDetailsActivity -> com.kayak.android.streamingsearch.results.list.hotel.StaySearchResultsActivity
+com.kayak.android.navigation.MainActivity -> com.kayak.android.streamingsearch.results.list.car.CarSearchResultsActivity
+com.kayak.android.streamingsearch.results.list.car.CarSearchResultsActivity -> com.kayak.android.navigation.MainActivity
+com.kayak.android.streamingsearch.results.list.car.CarSearchResultsActivity -> com.kayak.android.streamingsearch.results.details.car.StreamingCarResultDetailsActivity
+com.kayak.android.streamingsearch.results.details.car.StreamingCarResultDetailsActivity -> com.kayak.android.streamingsearch.results.list.car.CarSearchResultsActivity
+com.kayak.android.streamingsearch.results.details.car.StreamingCarResultDetailsActivity -> com.kayak.android.maps.googlenative.CarAgencyNativeMapActivity
+com.kayak.android.maps.googlenative.CarAgencyNativeMapActivity -> com.kayak.android.streamingsearch.results.details.car.StreamingCarResultDetailsActivity
+com.kayak.android.navigation.MainActivity -> com.kayak.android.streamingsearch.results.list.packages.PackageSearchResultsWebViewActivity
+com.kayak.android.streamingsearch.results.list.packages.PackageSearchResultsWebViewActivity -> com.kayak.android.navigation.MainActivity
+com.kayak.android.navigation.MainActivity -> com.kayak.android.dateselector.DateSelectorActivity
+com.kayak.android.dateselector.DateSelectorActivity -> com.kayak.android.navigation.MainActivity
+com.kayak.android.navigation.MainActivity -> com.kayak.android.pricealerts.newpricealerts.PriceAlertListActivity
+com.kayak.android.pricealerts.newpricealerts.PriceAlertListActivity -> com.kayak.android.navigation.MainActivity
+com.kayak.android.navigation.MainActivity -> com.kayak.android.newflighttracker.FlightTrackerSearchActivity
+com.kayak.android.newflighttracker.FlightTrackerSearchActivity -> com.kayak.android.navigation.MainActivity
+com.kayak.android.flighttracker.detail.FlightTrackerFlightDetailActivity -> com.kayak.android.flighttracker.detail.FlightTrackerMapActivity
+com.kayak.android.flighttracker.detail.FlightTrackerMapActivity -> com.kayak.android.flighttracker.detail.FlightTrackerFlightDetailActivity
+com.kayak.android.newflighttracker.FlightTrackerSearchActivity -> com.kayak.android.flighttracker.detail.FlightTrackerFlightDetailActivity
+com.kayak.android.flighttracker.detail.FlightTrackerFlightDetailActivity -> com.kayak.android.navigation.MainActivity
+com.kayak.android.flighttracker.detail.FlightTrackerFlightDetailActivity -> com.kayak.android.directory.terminalmaps.AirportTerminalGoogleMapActivity
+com.kayak.android.directory.terminalmaps.AirportTerminalGoogleMapActivity -> com.kayak.android.flighttracker.detail.FlightTrackerFlightDetailActivity
+com.kayak.android.navigation.MainActivity -> com.kayak.android.profile.preferences.PreferencesActivity
+com.kayak.android.profile.preferences.PreferencesActivity -> com.kayak.android.navigation.MainActivity
+com.kayak.android.profile.preferences.PreferencesActivity -> com.kayak.android.profile.airports.AirportsActivity
+com.kayak.android.profile.airports.AirportsActivity -> com.kayak.android.profile.preferences.PreferencesActivity
+com.kayak.android.profile.airports.AirportsActivity -> com.kayak.android.smarty.SmartyActivity
+com.kayak.android.smarty.SmartyActivity -> com.kayak.android.profile.airports.AirportsActivity
+com.kayak.android.navigation.MainActivity -> com.kayak.android.notifications.NotificationsActivity
+com.kayak.android.notifications.NotificationsActivity -> com.kayak.android.navigation.MainActivity
+com.kayak.android.notifications.NotificationsActivity -> com.kayak.android.notifications.push.PushNotificationActivity
+com.kayak.android.notifications.push.PushNotificationActivity -> com.kayak.android.notifications.NotificationsActivity
+com.kayak.android.navigation.MainActivity -> com.kayak.android.preferences.currency.ui.CurrenciesActivity
+com.kayak.android.preferences.currency.ui.CurrenciesActivity -> com.kayak.android.navigation.MainActivity
+com.kayak.android.navigation.MainActivity -> com.kayak.android.setting.about.AboutActivity
+com.kayak.android.setting.about.AboutActivity -> com.kayak.android.navigation.MainActivity
+com.kayak.android.navigation.MainActivity -> com.google.android.gms.oss.licenses.OssLicensesMenuActivity
+com.google.android.gms.oss.licenses.OssLicensesMenuActivity -> com.kayak.android.navigation.MainActivity
+com.kayak.android.navigation.MainActivity -> com.kayak.android.web.WebViewActivity
+com.kayak.android.web.WebViewActivity -> com.kayak.android.navigation.MainActivity
+com.kayak.android.navigation.MainActivity -> com.kayak.android.smarty.SmartyActivity
+com.kayak.android.smarty.SmartyActivity -> com.kayak.android.navigation.MainActivity
+APK: apks/hackerone_apps/com.interflex.key_78.0.apk
+All results
+Start -> com.interflex.key.activitys.RegisterActivity
+com.interflex.key.activitys.RegisterActivity -> com.interflex.key.activitys.OptionActivity
+com.interflex.key.activitys.OptionActivity -> com.interflex.key.activitys.RegisterActivity
+com.interflex.key.activitys.RegisterActivity -> com.interflex.key.activitys.AboutActivity
+com.interflex.key.activitys.AboutActivity -> com.interflex.key.activitys.RegisterActivity
+com.interflex.key.activitys.qrScannerActivity -> com.interflex.key.activitys.RegisterActivity
+com.interflex.key.activitys.RegisterActivity -> com.interflex.key.activitys.qrScannerActivity
+APK: apks/hackerone_apps/com.jnj.mocospace.android_66370.0.apk
+All results
+Start -> com.jnj.mocospace.android/.presentation.home.MainWebView
+com.jnj.mocospace.android.presentation.home.UserSettings -> com.jnj.mocospace.android.presentation.home.MainWebView
+com.jnj.mocospace.android.presentation.home.MainWebView -> com.jnj.mocospace.android.presentation.home.UserSettings
+APK: apks/hackerone_apps/com.yinzcam.facilities.verizon_1612214.0.apk
+All results
+Start -> com.yinzcam.nba.mobile.home.NBAHomeActivity
+com.yinzcam.nba.mobile.home.NBAHomeActivity -> com.yinzcam.nba.mobile.calendar.events.EventDetailActivity
+com.yinzcam.nba.mobile.calendar.events.EventDetailActivity -> com.yinzcam.nba.mobile.web.WebActivity
+com.yinzcam.nba.mobile.web.WebActivity -> com.yinzcam.nba.mobile.calendar.events.EventDetailActivity
+com.yinzcam.nba.mobile.calendar.events.EventDetailActivity -> com.yinzcam.nba.mobile.home.NBAHomeActivity
+com.yinzcam.nba.mobile.calendar.events.EventDetailActivity -> com.facebook.FacebookActivity
+com.facebook.FacebookActivity -> com.yinzcam.nba.mobile.calendar.events.EventDetailActivity
+com.yinzcam.nba.mobile.home.NBAHomeActivity -> com.yinzcam.nba.mobile.calendar.events.VenueCalendarActivity
+com.yinzcam.nba.mobile.calendar.events.VenueCalendarActivity -> com.yinzcam.nba.mobile.home.NBAHomeActivity
+com.yinzcam.nba.mobile.calendar.events.VenueCalendarActivity -> com.yinzcam.nba.mobile.calendar.events.EventDetailActivity
+com.yinzcam.nba.mobile.calendar.events.EventDetailActivity -> com.yinzcam.nba.mobile.calendar.events.VenueCalendarActivity
+com.yinzcam.nba.mobile.home.NBAHomeActivity -> com.yinzcam.nba.mobile.locator.WebLocatorActivity
+com.yinzcam.nba.mobile.locator.WebLocatorActivity -> com.yinzcam.nba.mobile.home.NBAHomeActivity
+com.yinzcam.nba.mobile.home.NBAHomeActivity -> com.yinzcam.nba.mobile.reporting.NotificationActivity
+com.yinzcam.nba.mobile.reporting.NotificationActivity -> com.yinzcam.nba.mobile.home.NBAHomeActivity
+com.yinzcam.nba.mobile.home.NBAHomeActivity -> com.yinzcam.nba.mobile.web.WebActivity
+com.yinzcam.nba.mobile.web.WebActivity -> com.yinzcam.nba.mobile.home.NBAHomeActivity
+com.yinzcam.nba.mobile.home.NBAHomeActivity -> com.yinzcam.nba.mobile.settings.application.ApplicationSettingsActivity
+com.yinzcam.nba.mobile.settings.application.ApplicationSettingsActivity -> com.yinzcam.nba.mobile.home.NBAHomeActivity
+com.yinzcam.nba.mobile.calendar.events.EventDetailActivity -> com.yinzcam.nba.mobile.reporting.NotificationActivity
+com.yinzcam.nba.mobile.web.WebActivity -> com.yinzcam.nba.mobile.reporting.NotificationActivity
+com.yinzcam.nba.mobile.calendar.events.EventDetailActivity -> com.yinzcam.nba.mobile.settings.application.ApplicationSettingsActivity
+com.yinzcam.nba.mobile.calendar.events.EventDetailActivity -> com.yinzcam.nba.mobile.locator.WebLocatorActivity
+com.yinzcam.nba.mobile.web.WebActivity -> com.yinzcam.nba.mobile.locator.WebLocatorActivity
